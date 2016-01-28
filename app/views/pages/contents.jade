@@ -1,12 +1,12 @@
-.mdl-grid(ng-repeat="article in articles")
+.mdl-grid(ng-repeat="item in articleList")
   .mdl-cell.mdl-cell--2-col
   .mdl-card.mdl-shadow--2dp.mdl-cell.mdl-cell--8-col
     .mdl-card__title
-      h2.mdl-card__title-text {{article.articleId}}
+      h2.mdl-card__title-text {{item.articleName}}
     .mdl-card__supporting-text
       span {{article.content}}
     .mdl-card__actions.mdl-card--border
-      a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(ng-click="testClick(article.overview.partner)")
+      a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(ui-sref="main.entries", ng-click="entryPage(item.articleId)")
         | Get Started
     .mdl-card__menu
       button.mdl-button.mdl-button--icon.mdl-js-button.mdl-js-ripple-effect

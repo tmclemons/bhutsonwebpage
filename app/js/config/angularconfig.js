@@ -4,8 +4,9 @@ let drawer = require('../controllers/drawer');
 
 
 
-function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
 
+function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, localStorageServiceProvider, $httpProvider) {
+  localStorageServiceProvider.setPrefix('bhutson');
   $urlRouterProvider.otherwise('/page-not-found');
 
   $locationProvider.html5Mode({
@@ -40,7 +41,10 @@ function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, $h
       }
     })
     .state('main.entries', {
-      url: '/entry',
+      url: '/entry?article',
+      params: {
+        article: null,
+      },
       views: {
         '@': {
           templateUrl: 'pages/main.html'
@@ -61,4 +65,4 @@ function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, $h
     });
 }
 
-module.exports = ['$stateProvider', '$urlRouterProvider', '$locationProvider', '$httpProvider', angularConfig];
+module.exports = ['$stateProvider', '$urlRouterProvider', '$locationProvider', 'localStorageServiceProvider', '$httpProvider', angularConfig];

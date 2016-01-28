@@ -7,9 +7,11 @@ import angular from 'angular';
 let uiRouter = require('angular-ui-router');
 
 require('../../node_modules/material-design-lite/material');
+require('angular-local-storage');
 import './templates';
 
 let deps = [
+  'LocalStorageModule',
   uiRouter,
   'templates'
 ];
