@@ -41,9 +41,9 @@ function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, lo
       }
     })
     .state('main.entries', {
-      url: '/entry?article',
+      url: '/entry',
       params: {
-        article: null,
+        route: null
       },
       views: {
         '@': {

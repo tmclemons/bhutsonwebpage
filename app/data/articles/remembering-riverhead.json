@@ -1,60 +1,109 @@
 {
-    "header":{
-      "title": "remembering riverhead",
-      "imageurl":""
-    },
-    "overview":{
-      "title":"",
-      "partner":"",
-      "role":"",
-      "timeframe":"",
-      "team":"",
-      "imageurl":""
-    },
-    "work-performed": {
-      "title":"",
-      "tools":"",
-      "methods":"",
+  "header":{
+    "title": "remembering riverhead",
+    "imageurl":""
+  },
+  "overview":{
+    "title":"",
+    "partner":"",
+    "role":"",
+    "timeframe":"",
+    "team":"",
+    "imageurl":"",
+    "content":{
       "description":"",
-      "imageurl":""
-    },
-    "background":{
-      "title":"",
+      "description2":""
+    }
+  },
+  "work-performed": {
+    "title":"",
+    "tools":"",
+    "methods":"",
+    "content":{
       "description":"",
+      "description2":""
+    },
+    "imageurl":""
+  },
+  "background":{
+    "title":"",
+    "content":{
+      "description":"",
+      "description2":"",
       "problem":"",
-      "solution":"",
+      "details":{
+        "detail": "",
+        "detail": "",
+        "detail": "",
+        "detail": "",
+        "detail": ""
+      },
+      "solution":""
+    },
+    "imageurl":""
+  },
+  "processes":{
+    "process":{
+      "title":"",
+      "content":{
+        "description": "",
+        "description2": ""
+      },
       "imageurl":""
     },
-    "processes":{
-      "process":{
-        "title":"",
-        "description": "",
-        "imageurl":""
-      },
-      "process":{
-        "title":"",
-        "description": "",
-        "imageurl":""
-      },
-      "process":{
-        "title":"",
-        "description": "",
-        "imageurl":""
-      },
-      "process":{
-        "title":"",
-        "description": "",
-        "imageurl":""
-      }
-    },
-    "conclusion":{
+    "process":{
       "title":"",
-      "description":"",
+      "content":{
+        "description": "",
+        "description2": "",
+        "details":{
+          "detail": "",
+          "detail": "",
+          "detail": "",
+          "detail": "",
+          "detail": ""
+        }
+      },
       "imageurl":""
     },
-    "reflection":{
+    "process":{
       "title":"",
-      "description":"",
+      "content":{
+        "description": "",
+        "description2": ""
+      },
+      "imageurl":""
+    },
+    "process":{
+      "title":"",
+      "content":{
+        "description": "",
+        "description2": ""
+      },
       "imageurl":""
     }
+  },
+  "conclusion":{
+    "title":"",
+    "content":{
+      "description":"",
+      "description2":"",
+      "details":{
+        "detail":"",
+        "detail":"",
+        "detail":"",
+        "detail":"",
+        "detail":""
+      }
+    },
+    "imageurl":""
+  },
+  "reflection":{
+    "title":"",
+    "content":{
+      "description":"",
+      "description2":""
+    },
+    "imageurl":""
+  }
 }

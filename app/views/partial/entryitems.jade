@@ -1,0 +1,22 @@
+.mdl-card__media.mdl-color-text--grey-50
+  h3 {{section.title}}
+.mdl-card__supporting-text
+  div.label
+    span(ng-if="section.partner") Partner:
+    span{{section.partner}}
+  div.label(ng-if="section.role") Role:
+    span{{section.role}}
+  div.label(ng-if="section.timeframe") Timeframe:
+    span{{section.timeframe}}
+  div.label(ng-if="section.team") Team:
+    span{{section.team}}
+  span(ng-repeat="process in section.content.processItems")
+    p {{process.title}}
+    p(ng-repeat="descItems in process.description")
+      span {{descItems}}
+    p(ng-repeat="detailItems in process.detail")
+      span {{detailItems}}
+  span(ng-repeat="listItem in section.content.description")
+    p {{listItem}}
+  ul(ng-repeat="listDetail in section.content.details track by $index")
+    li {{listDetail}}

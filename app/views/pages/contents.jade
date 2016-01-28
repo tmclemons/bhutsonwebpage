@@ -6,7 +6,7 @@
     .mdl-card__supporting-text
       span {{article.content}}
     .mdl-card__actions.mdl-card--border
-      a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(ui-sref="main.entries", ng-click="entryPage(item.articleId)")
+      a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(ui-sref="main.entries({route: item.articleFn})")
         | Get Started
     .mdl-card__menu
       button.mdl-button.mdl-button--icon.mdl-js-button.mdl-js-ripple-effect

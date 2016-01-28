@@ -1,4 +1,10 @@
 .mdl-grid
-  .mdl-card.mdl-shadow--4dp.mdl-cell.mdl-cell--12-col
-    .mdl-card__media.mdl-color-text--grey-50(ng-repeat="section in businessConnect")
-      h3 {{section.title}}
+  .mdl-card.mdl-shadow--4dp.mdl-cell.mdl-cell--12-col(ng-repeat="section in businessConnect" ng-if="routes === 'businessConnect' ")
+    include ../partial/entryitems.jade
+  .mdl-card.mdl-shadow--4dp.mdl-cell.mdl-cell--12-col(ng-repeat="section in cengageLearning" ng-if="routes === 'cengageLearning' ")
+    include ../partial/entryitems.jade
+  .mdl-card.mdl-shadow--4dp.mdl-cell.mdl-cell--12-col(ng-repeat="section in msMollyFoundation" ng-if="routes === 'msMollyFoundation' ")
+    include ../partial/entryitems.jade
+  .mdl-card.mdl-shadow--4dp.mdl-cell.mdl-cell--12-col(ng-repeat="section in rememberingRiverhead" ng-if="routes === 'rememberingRiverhead' ")
+    include ../partial/entryitems.jade
+  .mdl-card.mdl-shadow--4dp.mdl-cell.mdl-cell--12-col(ng-repeat="section in myTalkTools" ng-if="routes === 'myTalkTools' ")

@@ -9,52 +9,101 @@
     "role":"",
     "timeframe":"",
     "team":"",
-    "imageurl":""
+    "imageurl":"",
+    "content":{
+      "description":"",
+      "description2":""
+    }
   },
   "work-performed": {
     "title":"",
     "tools":"",
     "methods":"",
-    "description":"",
+    "content":{
+      "description":"",
+      "description2":""
+    },
     "imageurl":""
   },
   "background":{
     "title":"",
-    "description":"",
-    "problem":"",
-    "solution":"",
+    "content":{
+      "description":"",
+      "description2":"",
+      "problem":"",
+      "details":{
+        "detail": "",
+        "detail": "",
+        "detail": "",
+        "detail": "",
+        "detail": ""
+      },
+      "solution":""
+    },
     "imageurl":""
   },
   "processes":{
     "process":{
       "title":"",
-      "description": "",
+      "content":{
+        "description": "",
+        "description2": ""
+      },
       "imageurl":""
     },
     "process":{
       "title":"",
-      "description": "",
+      "content":{
+        "description": "",
+        "description2": "",
+        "details":{
+          "detail": "",
+          "detail": "",
+          "detail": "",
+          "detail": "",
+          "detail": ""
+        }
+      },
       "imageurl":""
     },
     "process":{
       "title":"",
-      "description": "",
+      "content":{
+        "description": "",
+        "description2": ""
+      },
       "imageurl":""
     },
     "process":{
       "title":"",
-      "description": "",
+      "content":{
+        "description": "",
+        "description2": ""
+      },
       "imageurl":""
     }
   },
   "conclusion":{
     "title":"",
-    "description":"",
+    "content":{
+      "description":"",
+      "description2":"",
+      "details":{
+        "detail":"",
+        "detail":"",
+        "detail":"",
+        "detail":"",
+        "detail":""
+      }
+    },
     "imageurl":""
   },
   "reflection":{
     "title":"",
-    "description":"",
+    "content":{
+      "description":"",
+      "description2":""
+    },
     "imageurl":""
   }
 }

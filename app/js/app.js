@@ -8,10 +8,13 @@ let uiRouter = require('angular-ui-router');
 
 require('../../node_modules/material-design-lite/material');
 require('angular-local-storage');
+require('angular-cookies');
+
 import './templates';
 
 let deps = [
   'LocalStorageModule',
+  'ngCookies',
   uiRouter,
   'templates'
 ];

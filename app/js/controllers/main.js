@@ -3,39 +3,35 @@
 let R = require('ramda');
 
 var main = {
-  controller: ['$scope', '$state', '$http', '$stateParams', '$q',
-    ($scope, $state, $http, $stateParams, $q) => {
+  controller: ['$scope', '$state', '$http', '$stateParams', '$q', '$cookieStore',
+    ($scope, $state, $http, $stateParams, $q, $cookiesStore) => {
       $scope.articleList =[
         {
           "articleName": "business connect",
-          "articleId": "business-connect"
+          "articleFn": "businessConnect"
         },
         {
           "articleName": "cengage learning",
-          "articleId": "cengage-learning"
+          "articleFn": "cengageLearning"
         },
         {
           "articleName": "my talk tools",
-          "articleId": "mytalk-tools"
+          "articleFn": "myTalkTools"
         },
         {
           "articleName": "ms. molly foundation",
-          "articleId": "msmolly-foundation"
+          "articleFn": "msMollyFoundation"
         },
         {
           "articleName": "remembering riverhead",
-          "articleId": "remembering-riverhead"
+          "articleFn": "rememberingRiverhead"
         }
       ];
 
-      $scope.entryPage = function entryPage(e){
-        let jsonDir = 'data/articles/';
-        let jsonFile = jsonDir + e + '.json';
-      }
+        $scope.businessConnect = null;
 
         $http.get('data/articles/business-connect.json').success(function(data){
           $scope.businessConnect = data;
-          console.log($scope.businessConnect)
         });
         $http.get('data/articles/cengage-learning.json').success(function(data){
           $scope.cengageLearning = data;
@@ -50,7 +46,8 @@ var main = {
           $scope.msMollyFoundation = data;
         });
 
-
+        console.log($stateParams)
+        $scope.routes = $stateParams.route;
   }]
 };
 
