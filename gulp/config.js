@@ -17,7 +17,7 @@ export default {
 
   data: {
     src: 'app/data/',
-    files: 'app/data/*.json',
+    files: 'app/data/**/*.json',
     dest: 'build/data',
   },
 

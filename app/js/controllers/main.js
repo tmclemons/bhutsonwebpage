@@ -9,6 +9,10 @@ var main = {
       $http.get(jsonFile).success( function(data) {
         $scope.articles =  data;
       });
+
+      $scope.testClick = function testClick(e) {
+        console.log(e)
+      }
   }]
 };
 
