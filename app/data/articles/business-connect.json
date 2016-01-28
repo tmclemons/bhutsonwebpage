@@ -1,0 +1,22 @@
+[
+    {
+      "title":"business connect",
+      "overview":{
+        "partner":"",
+        "role":"",
+        "timeframe":"",
+        "team":"",
+      },
+      "work-performed": {
+        "tools":"",
+        "methods":"",
+        "description":""
+      },
+      "background":{
+        "problem":"",
+        "description":""
+      },
+
+      "id":"#1"
+    }
+]

@@ -1,0 +1,14 @@
+header.mdl-layout__header.mdl-layout__header--scroll{
+  background:url("https://images.unsplash.com/photo-1439723680580-bfd9d28ef9b6?crop=entropy&dpr=2.25&fit=crop&fm=jpg&h=800&ixjsv=2.1.0&ixlib=rb-0.3.5&q=44&w=1350");
+  background-size:cover;
+  background-position-y: 50%;
+  .mdl-layout__header-row{
+    h3{
+      text-align: center;
+      width: 100%;
+    }
+  }
+  // .mdl-layout__drawer-button {
+  //   background-color: rgba(0, 0, 0, 1);
+  // }
+}
