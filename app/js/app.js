@@ -21,6 +21,8 @@ let deps = [
 
 let app = angular.module('app', deps)
 
+app.directive('sfAdditionalDrawerButton', require('./directives/additionaldrawerbutton'));
+
 // UI Router
 app.config(require('./config/angularconfig'));
 

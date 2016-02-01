@@ -3,8 +3,9 @@
 let R = require('ramda');
 
 var main = {
-  controller: ['$scope', '$state', '$http', '$stateParams', '$q', '$cookieStore',
-    ($scope, $state, $http, $stateParams, $q, $cookiesStore) => {
+  controller: ['$scope', '$state', '$http', '$stateParams', '$q', '$cookieStore', '$location',
+    ($scope, $state, $http, $stateParams, $q, $cookiesStore, $location) => {
+
       $scope.articleList =[
         {
           "articleName": "business connect",
@@ -28,8 +29,6 @@ var main = {
         }
       ];
 
-        $scope.businessConnect = null;
-
         $http.get('data/articles/business-connect.json').success(function(data){
           $scope.businessConnect = data;
         });
@@ -46,8 +45,9 @@ var main = {
           $scope.msMollyFoundation = data;
         });
 
-        console.log($stateParams)
-        $scope.routes = $stateParams.route;
+        let locationUrl = $location.url();
+        $scope.routes = locationUrl.replace('/entry?page=', '');
+
   }]
 };
 

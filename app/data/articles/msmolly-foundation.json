@@ -1,109 +1,101 @@
 {
-  "header":{
-    "title": "ms. molly foundation",
-    "imageurl":""
-  },
-  "overview":{
-    "title":"",
-    "partner":"",
-    "role":"",
-    "timeframe":"",
-    "team":"",
-    "imageurl":"",
-    "content":{
-      "description":"",
-      "description2":""
+	"header": {
+		"title": "the mrs molly foundation",
+		"imageurl": "",
+		"banner": true
+	},
+	"overview": {
+		"title": "overview",
+		"role": "Researcher",
+		"timeframe": "January 2015-April 2015",
+		"team": "4 people",
+		"imageurl": "",
+		"content": {
+			"description": [
+				"The Ms. Molly Foundation’s mission is to increase public awareness of domestic violence and to provide assistance to local shelters and agencies that support victims in the communities they serve. The Foundation relies heavily on donations from Molly Maid franchise owners and Molly Maid customers. The Foundation also hosts an annual convention for franchise owners and fundraisers are held periodically through franchise owners."
+			]
+		}
+	},
+	"work-performed": {
+		"title": "work performed",
+		"tools": "",
+		"methods": "",
+		"content": {
+			"description": [
+				"Qualitative User Research (Contextual Inquiry, Affinity Mapping)"
+			]
+		}
+	},
+	"background": {
+		"title": "background",
+		"content": {
+			"description": [
+				"The Ms. Molly Foundation is a non-profit organization based in Ann Arbor, MI dedicated to stopping the cycle of domestic violence. The Foundation is the non-profit arm of the Molly Maid professional home cleaning service, which includes over 200 franchise owners throughout the world."
+			],
+			"problem": "The communication practices between Ms. Molly’s Board of Directors and stakeholders (mostly within the Molly Maid system) are inconsistent and ineffective. The information about the board’s decisions and programs often fail to reach the intended audience(s), and as a result, the board often does not get the response that they expect from constituents. Our team was asked to identify the information flow breakdowns and provide recommendations on they could be fixed."
+		},
+		"imageurl": "../images/MMS-logo.png",
+    "imagesize":"400px"
+	},
+  "process1": {
+    "title": "secondary research",
+    "content": {
+      "description": [
+        "Each team member completed individual research to gain additional information about various aspects relating to our client. My report examined the nonprofit / public charity sector and a population overview of domestic violence victims. Through this research, I gained a better understanding of nonprofits in the U.S., specifically those that identify as public charities, and learned more about domestic violence rates and reported cases."
+      ]
     }
   },
-  "work-performed": {
-    "title":"",
-    "tools":"",
-    "methods":"",
-    "content":{
-      "description":"",
-      "description2":""
+  "process2": {
+    "title": "understanding the problem",
+    "content": {
+      "description": [
+        "We conducted interviews with several board members to understand the information flow breakdowns. Before conducting interviews, we designed an interview guide that consisted of a pre-interview script and questions that were tailored to each interviewee.  We conducted 7 interviews with six board members, one former board member and the Public Relations manager. Each interview was conducted within one hour by two team members. One member was responsible for conducting the interview while the other took notes. Three of the interviews were conducted on the phone and four were in person. Of those conducted in person, we observed the interviewee’s environment, software, hardware and interactions with colleagues."
+      ]
     },
-    "imageurl":""
+		"imageurl": "../images/MMS-contextual-inquiry-interview.JPG",
+    "imagesize":"340px"
   },
-  "background":{
-    "title":"",
-    "content":{
-      "description":"",
-      "description2":"",
-      "problem":"",
-      "details":{
-        "detail": "",
-        "detail": "",
-        "detail": "",
-        "detail": "",
-        "detail": ""
-      },
-      "solution":""
+  "process3": {
+    "title": "work models",
+    "content": {
+      "description": [
+        "To visually represent an individual’s work patterns and information flows, each team member created a work model. I designed a flow model to illustrate the role of different users and how they communicate and coordinate to get work done. This flow model represents the perspective of one of the interviewees."
+      ]
     },
-    "imageurl":""
+		"imageurl": "../images/MMS-workmodel.png",
+    "imagesize":"270px"
   },
-  "processes":{
-    "process":{
-      "title":"",
-      "content":{
-        "description": "",
-        "description2": ""
-      },
-      "imageurl":""
+  "process4": {
+    "title": "affinity wall",
+    "content": {
+      "description": [
+        "Using data we collected from our contextual interviews, we designed an affinity wall to uncover interconnecting themes and help us devise recommendations. The wall was completed over the course of two weeks and 12 hours. Four key findings were extrapolated from the affinity wall, one of which was that the board members had conflicting visions for the future of the Foundation."
+      ]
     },
-    "process":{
-      "title":"",
-      "content":{
-        "description": "",
-        "description2": "",
-        "details":{
-          "detail": "",
-          "detail": "",
-          "detail": "",
-          "detail": "",
-          "detail": ""
-        }
-      },
-      "imageurl":""
-    },
-    "process":{
-      "title":"",
-      "content":{
-        "description": "",
-        "description2": ""
-      },
-      "imageurl":""
-    },
-    "process":{
-      "title":"",
-      "content":{
-        "description": "",
-        "description2": ""
-      },
-      "imageurl":""
+		"imageurl": "../images/MMS-affinity-wall.jpg",
+    "imagesize":"255px"
+  },
+  "process5": {
+    "title": "findings & recommendations",
+    "content": {
+      "description": [
+        "Our final technical report included findings and recommendations (broken down by short and long-term) based on our contextual interviews and affinity map. We hope that these recommendations will address the communication issues among the board members and aid them in mission for the foundation overall.",
+        "Recommendations"
+      ],
+      "detail": [
+        "Utilize internal communication options, like the intranet page, to reach out to stakeholders;",
+        "Use free resources to enhance promotion efforts to the public;",
+        "Define job role, responsibilities and expectations for board members;",
+        "Vote on initiatives so that all board members are clear on the vision and direction of the foundation"
+      ]
     }
   },
-  "conclusion":{
-    "title":"",
-    "content":{
-      "description":"",
-      "description2":"",
-      "details":{
-        "detail":"",
-        "detail":"",
-        "detail":"",
-        "detail":"",
-        "detail":""
-      }
-    },
-    "imageurl":""
-  },
-  "reflection":{
-    "title":"",
-    "content":{
-      "description":"",
-      "description2":""
-    },
-    "imageurl":""
-  }
+	"reflection": {
+		"title": "reflection",
+		"content": {
+			"description": [
+				"A main takeaway for me from this project was that there are layers to a problem and just like people, problems can be complex. Our team was initially asked to identify the information flow breakdowns between the board of directors and their stakeholders. Our findings revealed that there was not only an information flow breakdown between the Foundation and the Molly Maid system, but there were also communication breakdowns among the board members."
+			]
+		}
+	}
 }

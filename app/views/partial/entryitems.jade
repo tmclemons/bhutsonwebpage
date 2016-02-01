@@ -1,22 +1,37 @@
-.mdl-card__media.mdl-color-text--grey-50
-  h3 {{section.title}}
-.mdl-card__supporting-text
-  div.label
-    span(ng-if="section.partner") Partner:
-    span{{section.partner}}
-  div.label(ng-if="section.role") Role:
-    span{{section.role}}
-  div.label(ng-if="section.timeframe") Timeframe:
-    span{{section.timeframe}}
-  div.label(ng-if="section.team") Team:
-    span{{section.team}}
-  span(ng-repeat="process in section.content.processItems")
-    p {{process.title}}
-    p(ng-repeat="descItems in process.description")
-      span {{descItems}}
-    p(ng-repeat="detailItems in process.detail")
-      span {{detailItems}}
-  span(ng-repeat="listItem in section.content.description")
-    p {{listItem}}
-  ul(ng-repeat="listDetail in section.content.details track by $index")
-    li {{listDetail}}
+.mdl-card.mdl-shadow--4dp(
+  class="card-0{{$index}}",
+  ng-class="{'no-image' : !section.imageurl}"
+  )
+  .mdl-card__media.entry.mdl-color-text--grey-50
+    h3 {{section.title}}
+  .mdl-card__supporting-text(
+    class="child-0{{$index}}"
+    )
+    div.label(ng-if="section.partner") 
+      span.labeltag Partner: 
+      span{{section.partner}}
+    div.label(ng-if="section.role") 
+      span.labeltag Role: 
+      span{{section.role}}
+    div.label(ng-if="section.timeframe") 
+      span.labeltag Time-frame: 
+      span{{section.timeframe}}
+    div.label(ng-if="section.team") 
+      span.labeltag Team: 
+      span{{section.team}}
+    span(ng-repeat="listItem in section.content.description")
+      span(ng-if="section.title === 'overview'").labeltag Overview: 
+      p(
+        ng-class="{'overview' : section.title === 'overview'}"
+        ) {{listItem}}
+    ul.detail-item(ng-repeat="listDetail in section.content.detail track by $index")
+      li {{listDetail}}
+    p(ng-repeat="descItems2 in process.description2")
+      span {{descItems2}}
+.mdl-card.image.mdl-shadow--4dp(
+  style="background-image: url('{{section.imageurl}}'); height: {{section.imagesize}};",
+  class="image-0{{$index}}"
+  ng-if="section.imageurl"
+  )
+  .mdl-card__title.mdl-card--expand
+  .mdl-card__actions

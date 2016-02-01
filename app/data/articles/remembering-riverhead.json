@@ -1,109 +1,74 @@
 {
-  "header":{
-    "title": "remembering riverhead",
-    "imageurl":""
+	"header": {
+		"title": "remembering riverhead",
+		"imageurl": "",
+		"banner": true
+	},
+	"overview": {
+		"title": "overview",
+		"role": "Interaction Designer",
+		"timeframe": "January 2015-April 2015",
+		"imageurl": ""
+	},
+	"work-performed": {
+		"title": "work performed",
+		"content": {
+			"description": [
+				"UX Design (Sketching, storyboards, scenarios, paper prototyping, wireframes, digital prototype built in Axure"
+			]
+		},
+		"imageurl": "../images/RR-azure-wireframe.png",
+    "imagesize":"460px"
+	},
+	"background": {
+		"title": "background",
+		"content": {
+			"description": [
+				"In my interaction design course, we were tasked with designing a system that supports an activity, relationship within or a critical reflection in a specific neighborhood context. I decided to focus my project on my hometown, Riverhead, a town located on Long Island, New York. In 2004, the Town Supervisor pledged to revitalize the Main Street area. Besides the physical changes, the town is also seeing a growing population change. With so much history embedded in the town, I wondered how residents, who have lived in the town for decades and across generations, felt about the changes that are occurring.",
+				"Designing a Solution: The concept for an application developed after discovering a Facebook forum where residents share memories and ask questions about its current redevelopment efforts. Using a participatory design approach, I wanted to design a platform for the residents to add their personal stories and videos as a way to archive the history of the town from their perspective. Currently, there is no website that exists dedicated to Riverhead and has this functionality. On this site, the users have the power to tell the town’s story in their voice. A crowd-sourcing website, users can upload their personal stories (similar to a blog), upload their own videos, and input information about key locations and known families that have lived in the area for generations."
+			]
+		}
+	},
+  "process1": {
+    "title": "sketching",
+    "content": {
+      "description": [
+        "After settling on the problem statement, I was tasked with completing a sketching assignment that challenged me to sketch 40 ideas with captions in two inch squares. Some guidelines for this assignment was to not focus on quality and that no two ideas should be alike.",
+        "This task was difficult for me because I had not used this technique before, and it was especially difficult to come up with 40 different ideas. I had no problem coming up with a couple of different ideas, but as I approached the double digits I became stuck. I had to learn how to put on paper any idea possible, no matter how much I didn’t like it."
+      ]
+    },
+    "imageurl": "../images/RR-sketches.jpg",
+    "imagesize":"320px"
   },
-  "overview":{
-    "title":"",
-    "partner":"",
-    "role":"",
-    "timeframe":"",
-    "team":"",
-    "imageurl":"",
-    "content":{
-      "description":"",
-      "description2":""
-    }
-  },
-  "work-performed": {
-    "title":"",
-    "tools":"",
-    "methods":"",
-    "content":{
-      "description":"",
-      "description2":""
-    },
-    "imageurl":""
-  },
-  "background":{
-    "title":"",
-    "content":{
-      "description":"",
-      "description2":"",
-      "problem":"",
-      "details":{
-        "detail": "",
-        "detail": "",
-        "detail": "",
-        "detail": "",
-        "detail": ""
-      },
-      "solution":""
-    },
-    "imageurl":""
-  },
-  "processes":{
-    "process":{
-      "title":"",
-      "content":{
-        "description": "",
-        "description2": ""
-      },
-      "imageurl":""
-    },
-    "process":{
-      "title":"",
-      "content":{
-        "description": "",
-        "description2": "",
-        "details":{
-          "detail": "",
-          "detail": "",
-          "detail": "",
-          "detail": "",
-          "detail": ""
-        }
-      },
-      "imageurl":""
-    },
-    "process":{
-      "title":"",
-      "content":{
-        "description": "",
-        "description2": ""
-      },
-      "imageurl":""
-    },
-    "process":{
-      "title":"",
-      "content":{
-        "description": "",
-        "description2": ""
-      },
-      "imageurl":""
-    }
-  },
-  "conclusion":{
-    "title":"",
-    "content":{
-      "description":"",
-      "description2":"",
-      "details":{
-        "detail":"",
-        "detail":"",
-        "detail":"",
-        "detail":"",
-        "detail":""
-      }
-    },
-    "imageurl":""
-  },
-  "reflection":{
-    "title":"",
-    "content":{
-      "description":"",
-      "description2":""
-    },
-    "imageurl":""
-  }
+  "process2": {
+		"title": "scenarios & storyboard",
+		"content": {
+			"description": [
+        "To further develop my idea, I was tasked with creating scenarios and storyboards. This assignment pushed me to think about different use cases. I liked that this assignment was about moving past the concept phase and thinking about how a design could be used in a real life context."
+			]
+		},
+    "imageurl": "../images/RR-storyboard.png",
+    "imagesize":"445px"
+	},
+  "process3": {
+		"title": "prototyping & wireframing",
+		"content": {
+			"description": [
+        "To test my design, I created a paper prototype and a hi-fidelity prototype using Axure. I tested the paper prototype with several classmates to get feedback, which I incorporated into my digital prototypes. I made two iterations of my digital prototype, and each time I received feedback from my classmates."
+			]
+		},
+    "imageurl": "../images/RR-digital-prototype.png",
+    "imagesize":"530px"
+	},
+	"reflection": {
+		"title": "reflection",
+		"content": {
+			"description": [
+				"I chose to pivot my project in the middle of the semester. My original project was focused on creating a mobile application in response to the growing issue of gang violence in Riverhead and surrounding towns. My initial idea was that the mobile application would provide information about the people in the area dedicated disseminating gang activity, information on how residents can protect themselves against gang activity, and contact information to report suspicious activity.",
+				"Residents could view neighborhood maps that would mark the locations of reported gang activity, and the app would provide phone numbers and social media links so residents could alert authorities and other community members if gang members are spotted or an activity is in process.",
+				"Before completing the sketching assignment, I completed a competitive analysis of other neighborhood watch applications. However, I became uncertain that gang activity was an issue that the residents back home really cared about. I wanted to see if there were more pressing issues that community members were talking about, which is when I came across the Facebook forum. Reading the discussions and comments, I learned that community members were talking about their concerns over how the town was changing.",
+				"This project was my first exposure to interaction and UX design. The course led me to gain a better understanding of the base principles of user-centered and participatory design. Coming from a journalism background, I could easily identify with relying on real user feedback to inspire designs and create tools that could have a real positive impact on a community."
+			]
+		}
+	}
 }

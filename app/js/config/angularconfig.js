@@ -1,6 +1,5 @@
 let main = require('../controllers/main');
 let nav = require('../controllers/nav');
-let drawer = require('../controllers/drawer');
 
 
 
@@ -36,14 +35,14 @@ function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, lo
         },
         'drawer@main.homepage': {
           tempalteUrl: 'components/drawer.html',
-          controller: drawer.controller
+          controller: nav.controller
         }
       }
     })
     .state('main.entries', {
-      url: '/entry',
+      url: '/entry?page',
       params: {
-        route: null
+        page: null
       },
       views: {
         '@': {
@@ -59,10 +58,50 @@ function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, lo
         },
         'drawer@main.entries': {
           tempalteUrl: 'components/drawer.html',
-          controller: drawer.controller
+          controller: nav.controller
         }
       }
-    });
+    })
+    .state('main.about', {
+      url: '/about',
+      views: {
+        '@': {
+          templateUrl: 'pages/main.html'
+        },
+        'content@main.about': {
+          templateUrl: 'pages/about.html',
+          controller: main.controller
+        },
+        'header@main.about':{
+          templateUrl: 'components/header.html',
+          controller: nav.controller
+        },
+        'drawer@main.about': {
+          tempalteUrl: 'components/drawer.html',
+          controller: nav.controller
+        }
+      }
+    })
+    .state('main.contact', {
+      url: '/contact',
+      views: {
+        '@': {
+          templateUrl: 'pages/main.html'
+        },
+        'content@main.contact': {
+          templateUrl: 'pages/contact.html',
+          controller: main.controller
+        },
+        'header@main.contact':{
+          templateUrl: 'components/header.html',
+          controller: nav.controller
+        },
+        'drawer@main.contact': {
+          tempalteUrl: 'components/drawer.html',
+          controller: nav.controller
+        }
+      }
+    })
 }
 
 module.exports = ['$stateProvider', '$urlRouterProvider', '$locationProvider', 'localStorageServiceProvider', '$httpProvider', angularConfig];

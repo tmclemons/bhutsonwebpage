@@ -1,109 +1,133 @@
 {
-  "header":{
-    "title": "my talk tools",
-    "imageurl":""
-  },
-  "overview":{
-    "title":"",
-    "partner":"",
-    "role":"",
-    "timeframe":"",
-    "team":"",
-    "imageurl":"",
-    "content":{
-      "description":"",
-      "description2":""
+	"header": {
+		"title": "MyTalkTools",
+		"imageurl": "",
+		"banner": true
+	},
+	"overview": {
+		"title": "overview",
+		"role": "UX Researcher",
+		"timeframe": "January 2015-April 2015",
+		"team": "4 people",
+		"imageurl": "",
+		"content": {
+			"description": []
+		}
+	},
+	"work-performed": {
+		"title": "work performed",
+		"content": {
+			"description": [
+				"Qualitative & Quantitative User Research (Interviews, Persona Development, Survey Design, Comparative Analysis, Heuristic Evaluation, Usability Testing)"
+			]
+		}
+	},
+	"background": {
+		"title": "background",
+		"content": {
+			"description": [
+				"MyTalkTools is an augmentative and alternative communication (AAC) software that assists individuals who are unable to communicate through traditional means like speech and sign language. A mobile and web-based application, MyTalkTools allows users to communicate using various forms of text, sound, and image-based media.",
+				"What It Does",
+				"Through the mobile application, users can communicate using sequences of words, sounds and images that are setup by grids, also referred to as boards.  A board provides the ability to categorize information into a collection of cards. The individual cards, which feature images or pictures, will play a recorded sound when a user touches it, thus allowing them to engage in conversation. For example, a category board of “food” may display cards with pictures or images of breakfast, lunch, and dinner items. By selecting a card, the user can communicate what they want to eat. Boards can be personally edited by uploading pictures or selecting items from the web."
+			],
+			"problem": "The creator of MyTalkTools sought our help in understanding how to improve the app's usability for his target audience. Some of our research questions included:",
+			"detail": [
+				"Which user group is spending more time with the application? Is it supporters or actual end users? (For our research, we identified two user groups: supporters and end users. The “supporters” group consists of parents, teachers and support professionals such as Speech - Language Pathologists and Special Education Teachers. Supporters create the customized content for the end user. The end user includes individuals with expressive communication and language challenges, such as autism, Downs - syndrome, Traumatic Brain Injury(TBI), ALS, intellectual disabilities, or stroke patients.) ",
+				"What are some points of confusion within the application’s learning curve?"
+			]
+		}
+	},
+  "process1": {
+    "title": "interaction map",
+    "content": {
+      "description": [
+        "We began by creating an interaction map of the mobile application to understand the user flow and to give us an overview of the possible actions a user could do with the application. The map helped us understand some of the app’s usability issues, including the onboarding process and inconsistent vocabulary."
+      ]
     }
   },
-  "work-performed": {
-    "title":"",
-    "tools":"",
-    "methods":"",
-    "content":{
-      "description":"",
-      "description2":""
+  "process2": {
+    "title": "interviews, personas & scenarios",
+    "content": {
+      "description": [
+        "We conducted six interviews with potential and current “support” users of MyTalkTools, which included teachers, caretakers and speech-language specialists. Our goal was to gain a concrete understanding of MyTalkTools’ target user population and background about competitor AAC tools and devices. One major discovery from these interviews is that due to the time consuming challenges of caring for an individual with communication and language difficulties, supportive users want a product that does not have a steep learning curve and allows them to find the information they need quickly and seamlessly.",
+        "Based on our interviews, we created three personas and scenarios representing different support users. Using the personas, we created scenarios to describe how a user would use MyTalkTools to accomplish a realistic task or goal."
+      ]
     },
-    "imageurl":""
+    "imageurl": "../images/MTT-persona.png",
+    "imagesize": "670px"
   },
-  "background":{
-    "title":"",
-    "content":{
-      "description":"",
-      "description2":"",
-      "problem":"",
-      "details":{
-        "detail": "",
-        "detail": "",
-        "detail": "",
-        "detail": "",
-        "detail": ""
-      },
-      "solution":""
-    },
-    "imageurl":""
-  },
-  "processes":{
-    "process":{
-      "title":"",
-      "content":{
-        "description": "",
-        "description2": ""
-      },
-      "imageurl":""
-    },
-    "process":{
-      "title":"",
-      "content":{
-        "description": "",
-        "description2": "",
-        "details":{
-          "detail": "",
-          "detail": "",
-          "detail": "",
-          "detail": "",
-          "detail": ""
-        }
-      },
-      "imageurl":""
-    },
-    "process":{
-      "title":"",
-      "content":{
-        "description": "",
-        "description2": ""
-      },
-      "imageurl":""
-    },
-    "process":{
-      "title":"",
-      "content":{
-        "description": "",
-        "description2": ""
-      },
-      "imageurl":""
+  "process3": {
+    "title": "survey",
+    "content": {
+      "description": [
+        "We designed, piloted and distributed a survey using Qualtrics to target current and former users of MyTalkTools. We wanted the survey to help us learn who the users are, their feelings toward MyTalkTools and what they do in response to using the system. One major finding was that users felt challenged during the initial setup and due to vocabulary inconsistencies and misleading icons."
+      ]
     }
   },
-  "conclusion":{
-    "title":"",
-    "content":{
-      "description":"",
-      "description2":"",
-      "details":{
-        "detail":"",
-        "detail":"",
-        "detail":"",
-        "detail":"",
-        "detail":""
-      }
+  "process4": {
+    "title": "competitive analysis",
+    "content": {
+      "description": [
+        "We compared MyTalkTools to five AAC competitor products based on features such as:"
+      ],
+      "detail": [
+        "Onboarding",
+        "Text-to-Speech",
+        "Customizable Content",
+        "Price",
+        "Tech Support"
+      ],
+      "description2": [
+        "We discovered that while MyTalkTools is on par with or surpasses its competitors with its features and abilities, we were able to uncover some areas to help MyTalkTools create an even more competitive strategy, such as incorporating more user reviews."
+      ]
     },
-    "imageurl":""
+    "imageurl": "../images/MTT-comp-analysis.png",
+    "imagesize": "390px"
   },
-  "reflection":{
-    "title":"",
-    "content":{
-      "description":"",
-      "description2":""
-    },
-    "imageurl":""
-  }
+  "process5": {
+    "title": "heuristic evaluation",
+    "content": {
+      "description": [
+        "We conducted a heuristic evaluation utilizing Jakob Nielsen’s 10 usability heuristics for user interface design. Although MyTalkTools is noted by users for being highly customizable, we found some deficiencies in three of Nielsen’s heuristics: visibility of system status, consistency and standards, and efficiency of use."
+      ]
+    }
+  },
+  "process6": {
+    "title": "usability testing",
+    "content": {
+      "description": [
+        "Finally, the team conducted six usability tests. Prior to the usability tests, the team created a pre-and-post-questionnaire, six tasks and a moderator script. We recruited six participants, with four serving as the support user and two as the end user. We offered compensation via a gift card. The tests were video recorded for data analysis. The tests lasted approximately one hour, with the actual tasks lasting between 20-30 minutes.",
+        "From these tests, we had four major findings:"
+      ],
+      "detail": [
+        "Users felt there were too many steps to complete tasks",
+        "There was a lack of consistency regarding the app’s vocabulary",
+        "Users had a difficult time with the app’s onboarding process",
+        "Some functions were inconsistent"
+      ]
+    }
+  },
+  "process7": {
+    "title": "findings & recommendations",
+    "content": {
+      "description": [
+        "Based on our research, we outlined four main recommendations for improving the usability of MyTalkTools via PowerPoint presentation.",
+        "Recommendations"
+      ],
+      "detail": [
+        "Improve the onboarding experience with pre-set content",
+        "Use relevant terms and symbols for app language",
+        "Simplify the editing feature",
+        "Incorporate clear navigation symbols"
+      ]
+    }
+  },
+	"reflection": {
+		"title": "reflection",
+		"content": {
+			"description": [
+				"This project was great exposure to various user research methods. While we were able to pinpoint some of the main usability problems with the app, each method allowed us to learn more about our target user and uncover additional yet minor usability problems. This project solidified my interest and desire to pursue more opportunities to do user research."
+			]
+		}
+	}
 }
