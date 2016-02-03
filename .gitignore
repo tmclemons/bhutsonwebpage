@@ -3,4 +3,6 @@ dev/bower_components
 .tmp
 build
 ux-ignite.mp4
-images
+app/images
+build/images
+app/bower_components
