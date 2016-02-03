@@ -1,14 +1,11 @@
-.mdl-grid(ng-repeat="item in articleList")
-  .mdl-cell.mdl-cell--2-col
-  .mdl-card.mdl-shadow--2dp.mdl-cell.mdl-cell--8-col
-    .mdl-card__title
-      h2.mdl-card__title-text {{item.articleName}}
-    .mdl-card__supporting-text
-      span {{article.content}}
+.mdl-grid.contents(ng-repeat="item in articleList")
+  .mdl-cell.mdl-cell--3-col
+  .mdl-card.mdl-shadow--2dp.mdl-cell.mdl-cell--6-col.animate
+    .mdl-card__title(
+      style="background-image: url('{{item.imageurl}}')"
+      )
+      h1.mdl-card__title-text {{item.articleName}}
     .mdl-card__actions.mdl-card--border
       a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(ui-sref="main.entries({page: item.articleFn})")
-        | Get Started
-    .mdl-card__menu
-      button.mdl-button.mdl-button--icon.mdl-js-button.mdl-js-ripple-effect
-        i.ion-android-share-alt
-  .mdl-cell.mdl-cell--2-col
+        | View Here
+  .mdl-cell.mdl-cell--3-col

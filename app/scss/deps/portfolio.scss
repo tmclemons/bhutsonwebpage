@@ -2,6 +2,9 @@
 
 @media only screen and (min-width: 630px){
   .portfolio{
+    .mdl-cell--2-col.spacer{
+      display:inherit;
+    }
       .mdl-card{
         margin: 0 8px;
         ul{
@@ -11,8 +14,9 @@
         }
         &.image{
           background-size: cover;
-          background-position:center;
+          background-position:top left;
           &.image-01{
+            background-position:center;
             margin:8px;
           }
         }
@@ -29,6 +33,9 @@
 
 @media only screen and (max-width: 629px){
   .portfolio{
+    .mdl-cell--2-col.spacer{
+      display:none;
+    }
     .mdl-card{
       background-color:white;
       margin:8px 8px;
@@ -63,8 +70,21 @@
 }
 
 .portfolio{
+  .mdl-card.video{
+    &::before{
+      content:"";
+      @extend .ion-play;
+      width:40px;
+      height: auto;
+    }
+    video{
+      width:100%;
+    }
+  }
+
+
   .mdl-card{
-    @extend .mdl-cell--7-col;
+    @extend .mdl-cell--5-col;
     .labeltag{
       font-weight: bold;
     }
@@ -76,10 +96,10 @@
     }
     &.card-01{
       // margin: 8px;
-      @extend .mdl-cell--6-col;
+      @extend .mdl-cell--5-col;
     }
     &.no-image{
-      @extend .mdl-cell--12-col;
+      @extend .mdl-cell--10-col;
     }
     .mdl-card__media.entry{
       padding: 0px 35px;
@@ -97,9 +117,10 @@
       // min-height:350px !important;
 
       &.image-01{
-        @extend .mdl-cell--6-col;
+        @extend .mdl-cell--5-col;
         min-height: 400px;
       }
     }
+
   }
 }

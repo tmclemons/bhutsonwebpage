@@ -9,23 +9,28 @@ var main = {
       $scope.articleList =[
         {
           "articleName": "business connect",
-          "articleFn": "businessConnect"
+          "articleFn": "businessConnect",
+          "imageurl": "../images/BC-exposition-poster.jpg"
         },
         {
           "articleName": "cengage learning",
-          "articleFn": "cengageLearning"
+          "articleFn": "cengageLearning",
+          "imageurl": "../images/CG-debrief.jpg"
         },
         {
           "articleName": "my talk tools",
-          "articleFn": "myTalkTools"
+          "articleFn": "myTalkTools",
+          "imageurl": "../images/MTT-usability.png"
         },
         {
           "articleName": "ms. molly foundation",
-          "articleFn": "msMollyFoundation"
+          "articleFn": "msMollyFoundation",
+          "imageurl": "../images/MMS-affinity-wall.jpg"
         },
         {
           "articleName": "remembering riverhead",
-          "articleFn": "rememberingRiverhead"
+          "articleFn": "rememberingRiverhead",
+          "imageurl": "../images/RR-digital-prototype.png"
         }
       ];
 
@@ -44,9 +49,21 @@ var main = {
         $http.get('data/articles/msmolly-foundation.json').success(function(data){
           $scope.msMollyFoundation = data;
         });
+        $http.get('data/articles/about-me.json').success(function(data){
+          $scope.aboutMe = data;
+        });
 
         let locationUrl = $location.url();
         $scope.routes = locationUrl.replace('/entry?page=', '');
+
+        $scope.play = function play(){
+          let vid = document.getElementById("video-03");
+          if(vid.paused){
+            vid.play();
+          } else {
+            vid.pause();
+          }
+        };
 
   }]
 };

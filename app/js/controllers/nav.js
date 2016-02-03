@@ -6,6 +6,7 @@ var nav = {
         "siteName": "Brittany Hutson's Portfolio",
         "siteType": "Portfolio"
       };
+      $scope.currentPage = $state.current.name;
   }]
 };
 

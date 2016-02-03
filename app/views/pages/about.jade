@@ -1,1 +1,28 @@
-span about me
+.aboutme.mdl-grid(ng-repeat="section in aboutMe")
+  .mdl-cell--2-col
+  .mdl-card.mdl-shadow--4dp.animate(
+    ng-if="section.title != 'video' && !section.banner",
+    class="mdl-cell--8-col",
+    ng-class="{'bold': section.title === 'intro'}"
+    )
+    .mdl-card__media.entry.mdl-color-text--grey-50
+      h3 {{section.title}}
+    .mdl-card__supporting-text.mdl-grid
+      .profileimg.mdl-cell--3-col(ng-if="section.imageurl" style="background-image: url('{{section.imageurl}}')")
+      .mdl-cell--9-col(ng-if="section.imageurl")
+        span(ng-repeat="listItem in section.content.description")
+          p {{listItem}}
+      .mdl-cell--12-col(ng-if="!section.imageurl")
+        span(ng-repeat="listItem in section.content.description")
+          p {{listItem}}
+  .mdl-card.video.mdl-shadow--4dp.animate(
+    ng-if="section.videourl",
+    ng-click="play()"
+    )
+    video(
+      src="{{section.videourl}}",
+      type="video/mp4",
+      id="video-0{{$index}}",
+      controls 
+      )
+    

@@ -1,0 +1,164 @@
+
+
+@media only screen and (min-width: 630px){
+  .aboutme{
+    .mdl-card.bold .mdl-card__supporting-text span {
+      line-height: 30px;
+      &:nth-child(2) p{
+        font-weight: bold;
+      }
+
+      p{
+        display:inline;
+        font-size: 20px;
+      }
+    }
+
+    .mdl-card .mdl-card__supporting-text{
+      &.bold{
+        height: 220px;
+      }
+      .profileimg.mdl-cell--3-col{
+        margin-top: auto;
+        margin-bottom: auto;
+        border-radius: 140px;
+        background-size: 200px;
+        height: 180px;
+        background-position: -20px 0;
+        margin-right: 30px;
+      }
+      .mdl-cell--9-col{
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    }
+
+    .mdl-cell--2-col.spacer{
+      display:inherit;
+    }
+      .mdl-card{
+        margin: 0 8px;
+        ul{
+          li{
+            font-size:18px;
+          }
+        }
+        .mdl-card__supporting-text{
+          padding: 20px 35px;
+          &.child-01{
+            font-size: 1.3em;
+            line-height: 2em;
+          }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 629px){
+  .aboutme{
+    .mdl-card.bold .mdl-card__supporting-text span {
+      line-height: 24px;
+      &:nth-child(2) p{
+        font-weight: bold;
+      }
+      p{
+        display:inline;
+        font-size: 16px;
+      }
+    }
+
+    .mdl-card .mdl-card__supporting-text{
+        &.bold{
+          height:240px;
+        }
+      .profileimg.mdl-cell--3-col{
+        border-radius: 50px;
+        background-size: 100px;
+        height: 100px;
+        width:100px;
+        margin-top: 10px;
+        margin-bottom:10px;
+        margin-left:auto;
+        margin-right:auto;
+        background-position: contain;
+        background-repeat: no-repeat;
+      }
+    }
+    .mdl-card.video{
+      video{
+        max-height: 250px;
+      }
+    }
+    .mdl-cell--2-col.spacer{
+      display:none;
+    }
+    .mdl-card{
+      background-color:white;
+      margin:8px 8px;
+      width: 100% !important;
+      .mdl-card__supporting-text{
+        p.overview{
+          font-size:14px;
+        }
+        p{
+          font-size: .85em;
+          line-height: 1.8em;
+        }
+        ul{
+          li{
+            font-size:12px;
+          }
+        }
+        &.child-01{
+          font-size: .85em;
+          line-height: 1.8em;
+        }
+      }
+    }
+  }
+}
+
+.aboutme{
+  .mdl-card.bold .mdl-card__supporting-text span {
+    p{
+      display:inline;
+    }
+  }
+
+  .mdl-card .mdl-card__supporting-text{
+    .profileimg.mdl-cell--3-col{
+      background-repeat: no-repeat;
+    }
+  }
+  .mdl-card.video{
+
+    video{
+      width:100%;
+    }
+  }
+
+
+  .mdl-card{
+    @extend .mdl-cell--8-col;
+    .labeltag{
+      font-weight: bold;
+    }
+    p.overview{
+      display:inline;
+    }
+    p{
+      font-size:18px;
+    }
+    &.card-01{
+      // margin: 8px;
+      @extend .mdl-cell--8-col;
+    }
+    .mdl-card__media.entry{
+      padding: 0px 35px;
+      text-transform: capitalize;
+    }
+    ul{
+      margin: 10px 14px;
+    }
+  }
+}

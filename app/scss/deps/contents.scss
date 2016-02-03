@@ -1,0 +1,20 @@
+.mdl-grid.contents{
+  .mdl-card{
+    a.mdl-button{
+      color:red;
+    }
+    .mdl-card__title{
+      background-position: top left;
+      background-size: cover;
+      color:white;
+      height: 245px;
+      h1{
+        background-color: rgba(0,0,0, 0.6);
+        padding: 10px;
+        border-radius: 2px;
+        font-size: 30px;
+        text-transform: capitalize;
+      }
+    }
+  }
+}

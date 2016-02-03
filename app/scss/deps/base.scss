@@ -21,9 +21,7 @@ time, mark, audio, video {
 html {
     line-height: 1;
 }
-ol, ul {
-    list-style: none;
-}
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -63,114 +61,92 @@ body {
     background-color: #242431;
     color:#FFF;
 }
-header a, main a, footer a {
-    color: inherit;
-    border-bottom: 1px dotted #38373D;
-    text-decoration: none;
-    cursor: pointer;
-}
-header a:focus, main a:focus, footer a:focus {
-    outline: thin dotted;
-}
-header a:hover, main a:hover, footer a:hover {
-    color: #b7a5f5;
-}
+// header a, main a, footer a {
+//     color: inherit;
+//     border-bottom: 1px dotted #38373D;
+//     text-decoration: none;
+//     cursor: pointer;
+// }
+// header a:focus, main a:focus, footer a:focus {
+//     outline: thin dotted;
+// }
+// header a:hover, main a:hover, footer a:hover {
+//     color: #b7a5f5;
+// }
+//
+// header {
+//     background-color: #242431;
+//     height:115px;
+//     color:#FFF;
+// }
+//
+// header h1 {
+//     text-align: center;
+//     padding-top: 15px;
+//     font-size: 35px;
+//     line-height: 52px;
+//     font-weight: 700;
+//     color: #FFF;
+//     padding-bottom:15px;
+//     font-family: futura-pt,sans-serif;
+//     text-transform: uppercase;
+//     letter-spacing: 0.125em;
+// }
+// header p {
+//     text-align: center;
+//     font-size: 19px;
+// }
+//
+// main h2 {
+//     color: #242431;
+//     font-family: futura-pt,sans-serif;
+//     text-align: center;
+//     padding-top: 15px;
+//     font-size: 25px;
+//     line-height: 52px;
+//     font-weight: 550;
+//     padding-bottom:15px;
+//     text-transform: uppercase;
+// }
+//
+// main h3 {
+//     color: #242431;
+//     font-family: futura-pt,sans-serif;
+//     text-align: center;
+//     padding-top: 15px;
+//     font-size: 19px;
+//     line-height: 52px;
+//     font-weight: 550;
+//     padding-bottom:15px;
+//     text-transform: uppercase;
+// }
+//
+// main {
+//     margin: 0px auto;
+//     padding: 2em;
+//     max-width: 30em;
+// }
+//
+// footer {
+//     margin: 0px auto;
+//     padding: 2em;
+//     max-width: 30em;
+// }
+//
+// footer hr {
+//     width: 80px;
+//     box-sizing: content-box;
+//     height: 4px;
+//     margin: 0px auto;
+//     display: block;
+//     border: 0px none;
+//     border-bottom: 4px solid #000;
+// }
+//
+// footer p {
+//     padding-top:5px;
+// }
 
-header {
-    background-color: #242431;
-    height:115px;
-    color:#FFF;
-}
-
-header h1 {
-    text-align: center;
-    padding-top: 15px;
-    font-size: 35px;
-    line-height: 52px;
-    font-weight: 700;
-    color: #FFF;
-    padding-bottom:15px;
-    font-family: futura-pt,sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.125em;
-}
-header p {
-    text-align: center;
-    font-size: 19px;
-}
-
-main h2 {
-    color: #242431;
-    font-family: futura-pt,sans-serif;
-    text-align: center;
-    padding-top: 15px;
-    font-size: 25px;
-    line-height: 52px;
-    font-weight: 550;
-    padding-bottom:15px;
-    text-transform: uppercase;
-}
-
-main h3 {
-    color: #242431;
-    font-family: futura-pt,sans-serif;
-    text-align: center;
-    padding-top: 15px;
-    font-size: 19px;
-    line-height: 52px;
-    font-weight: 550;
-    padding-bottom:15px;
-    text-transform: uppercase;
-}
-
-main {
-    margin: 0px auto;
-    padding: 2em;
-    max-width: 30em;
-}
-
-footer {
-    margin: 0px auto;
-    padding: 2em;
-    max-width: 30em;
-}
-
-footer hr {
-    width: 80px;
-    box-sizing: content-box;
-    height: 4px;
-    margin: 0px auto;
-    display: block;
-    border: 0px none;
-    border-bottom: 4px solid #000;
-}
-
-footer p {
-    padding-top:5px;
-}
-
-.forkme {
-    transform: rotate(45deg);
-    background-color: #FFF;
-    overflow: hidden;
-    position: fixed;
-    z-index: 30;
-    width: 240px;
-    right: -60px;
-    top: 46px;
-    border-style: solid;
-    border-color: #7B7979;
-    text-align: center;
-}
-.forkme a {
-    color: #404040;
-    display: block;
-    font: 13px Helvetica Neue,Arial,sans-serif;
-    margin: 0.05em 0px 0.075em;
-    padding: 0.6em;
-    text-align: center;
-    text-decoration: none;
-}
 .animate {
     -webkit-animation-name:fadeInUp;
     -moz-animation-name:fadeInUp;
