@@ -1,5 +1,7 @@
 images
 app/bower_components
-node_modules
-server
+*.mp4
+*.png
+*.jpg
 build
+node_modules
