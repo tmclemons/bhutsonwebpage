@@ -6,3 +6,7 @@ ux-ignite
 app/images
 build/images
 app/bower_components
+images
+*.png
+*.jpg
+*.mp4
