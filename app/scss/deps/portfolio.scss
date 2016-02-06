@@ -15,9 +15,9 @@
         &.image{
           background-size: cover;
           background-position:top left;
+          margin:8px;
           &.image-01{
             background-position:center;
-            margin:8px;
           }
         }
         .mdl-card__supporting-text{
@@ -115,6 +115,12 @@
       @extend .mdl-cell--5-col;
       // @extend .mdl-cell--top;
       // min-height:350px !important;
+      .mdl-card__actions{
+        height: 52px;
+        padding: 16px;
+        background: rgba(#3F51B5, 0.5);
+        color:white;
+      }
 
       &.image-01{
         @extend .mdl-cell--5-col;

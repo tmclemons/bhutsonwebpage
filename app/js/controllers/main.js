@@ -8,29 +8,47 @@ var main = {
 
       $scope.articleList =[
         {
-          "articleName": "business connect",
+          "articleName": "Business Connect",
           "articleFn": "businessConnect",
-          "imageurl": "../images/BC-exposition-poster.jpg"
+          "imageurl": "../images/BC-exposition-poster.jpg",
+          "description": [
+            'UX Research',
+            'UX Design'
+          ]
         },
         {
-          "articleName": "cengage learning",
+          "articleName": "Cengage Learning",
           "articleFn": "cengageLearning",
-          "imageurl": "../images/CG-debrief.jpg"
+          "imageurl": "../images/CG-debrief.jpg",
+          "description": [
+            'Contextual Inquiry',
+            'User Research',
+            'UX Design'
+          ]
         },
         {
-          "articleName": "my talk tools",
+          "articleName": "My Talk Tools",
           "articleFn": "myTalkTools",
-          "imageurl": "../images/MTT-usability.png"
+          "imageurl": "../images/MTT-usability.png",
+          "description": [
+            'UX Research'
+          ]
         },
         {
-          "articleName": "ms. molly foundation",
+          "articleName": "Ms. Molly Foundation",
           "articleFn": "msMollyFoundation",
-          "imageurl": "../images/MMS-affinity-wall.jpg"
+          "imageurl": "../images/MMS-affinity-wall.jpg",
+          "description": [
+            'Contextual Inquiry'
+          ]
         },
         {
-          "articleName": "remembering riverhead",
+          "articleName": "Remembering Riverhead",
           "articleFn": "rememberingRiverhead",
-          "imageurl": "../images/RR-digital-prototype.png"
+          "imageurl": "../images/RR-digital-prototype.png",
+          "description": [
+            'Interaction Design'
+          ]
         }
       ];
 

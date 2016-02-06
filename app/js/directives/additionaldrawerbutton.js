@@ -72,7 +72,9 @@ function additionalDrawerButton($timeout, $document) {
       function removeAllEventListeners(element) {
         var old_element = element;
         var new_element = old_element.cloneNode(true);
-        old_element.parentNode.replaceChild(new_element, old_element);
+        if(old_element){
+          old_element.parentNode.replaceChild(new_element, old_element);
+        }
       }
     }
   };

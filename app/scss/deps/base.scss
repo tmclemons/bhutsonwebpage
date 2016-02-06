@@ -18,6 +18,27 @@ time, mark, audio, video {
     font-size: 100%;
     vertical-align: baseline;
 }
+
+
+@media screen and (max-width:629px){
+  .mobile-view{
+    display:inline !important;
+  }
+  .desktop-view{
+    display: none !important;
+  }
+
+}
+
+@media screen and (min-width:630px){
+  .mobile-view{
+    display:none !important;
+  }
+  .desktop-view{
+    display: inline !important;
+  }
+}
+
 html {
     line-height: 1;
 }

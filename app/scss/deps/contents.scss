@@ -1,7 +1,11 @@
 .mdl-grid.contents{
+  .mdl-card.mdl-cell--8-col{
+    margin-left: auto;
+    margin-right: auto;
+  }
   .mdl-card{
     a.mdl-button{
-      color:red;
+      color:#3f51b5 !important;
     }
     .mdl-card__title{
       background-position: top left;
@@ -16,5 +20,21 @@
         text-transform: capitalize;
       }
     }
+    .mdl-card__actions{
+      .tags-info{
+        float:right;
+        span{
+            font-size: 12px;
+            background-color: #D2CDCD;
+            padding: 6px 10px;
+            border-radius: 15px;
+            color: white;
+            margin-right: 10px;
+            margin-top: 8px;
+            vertical-align: middle;
+            display: inline-block;
+          }
+        }
+      }
+    }
   }
-}

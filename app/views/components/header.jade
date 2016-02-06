@@ -1,13 +1,13 @@
-.mdl-layout__header-row.mdl-layout--large-screen-only
-.mdl-layout__header-row.mdl-layout--large-screen-only
+.mdl-layout__header-row.desktop-view
 .mdl-layout__header-row
-  h3 {{site.author}}
-.mdl-layout__drawer-button(
-  sf-additional-drawer-button,
-  corresponding-drawer-selector=".drawer"
-)
-.mdl-layout__header-row.mdl-layout--large-screen-only
-.mdl-layout__header-row
+  h3.desktop-view {{site.author}}
+  h5.mobile-view {{site.author}}
+  .mdl-layout__drawer-button.mdl-layout--small-screen-only.mobile-view(
+    sf-additional-drawer-button,
+    corresponding-drawer-selector=".drawer"
+  )
+    i.material-icons menu
+.mdl-layout__header-row.desktop-view
   .mdl-layout-spacer
   nav.mdl-navigation.tabs
     a.mdl-navigation__link.tab(

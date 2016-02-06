@@ -10,9 +10,9 @@
 		"timeframe": "January 2015-April 2015",
 		"team": "4 people",
 		"imageurl": "",
+    "imagemsg": "filler comment",
 		"content": {
 			"description": [
-				"The Ms. Molly Foundation’s mission is to increase public awareness of domestic violence and to provide assistance to local shelters and agencies that support victims in the communities they serve. The Foundation relies heavily on donations from Molly Maid franchise owners and Molly Maid customers. The Foundation also hosts an annual convention for franchise owners and fundraisers are held periodically through franchise owners."
 			]
 		}
 	},
@@ -35,25 +35,19 @@
 			"problem": "The communication practices between Ms. Molly’s Board of Directors and stakeholders (mostly within the Molly Maid system) are inconsistent and ineffective. The information about the board’s decisions and programs often fail to reach the intended audience(s), and as a result, the board often does not get the response that they expect from constituents. Our team was asked to identify the information flow breakdowns and provide recommendations on they could be fixed."
 		},
 		"imageurl": "../images/MMS-logo.png",
-    "imagesize":"400px"
+    "imagesize":"400px",
+    "imagemsg": "filler comment"
 	},
-  "process1": {
-    "title": "secondary research",
-    "content": {
-      "description": [
-        "Each team member completed individual research to gain additional information about various aspects relating to our client. My report examined the nonprofit / public charity sector and a population overview of domestic violence victims. Through this research, I gained a better understanding of nonprofits in the U.S., specifically those that identify as public charities, and learned more about domestic violence rates and reported cases."
-      ]
-    }
-  },
   "process2": {
     "title": "understanding the problem",
     "content": {
       "description": [
-        "We conducted interviews with several board members to understand the information flow breakdowns. Before conducting interviews, we designed an interview guide that consisted of a pre-interview script and questions that were tailored to each interviewee.  We conducted 7 interviews with six board members, one former board member and the Public Relations manager. Each interview was conducted within one hour by two team members. One member was responsible for conducting the interview while the other took notes. Three of the interviews were conducted on the phone and four were in person. Of those conducted in person, we observed the interviewee’s environment, software, hardware and interactions with colleagues."
+        "To understand the information flow breakdowns, we conducted 7 interviews with six board members, one former board member and the Public Relations Manager. Three of the interviews were conducted on the phone and four were in person. Of those conducted in person, we observed the interviewee’s environment, software, hardware and interactions with colleagues."
       ]
     },
 		"imageurl": "../images/MMS-contextual-inquiry-interview.JPG",
-    "imagesize":"340px"
+    "imagesize":"340px",
+    "imagemsg": "The Public Relations Mqanager's desk during our contextual interview."
   },
   "process3": {
     "title": "work models",
@@ -63,23 +57,25 @@
       ]
     },
 		"imageurl": "../images/MMS-workmodel.png",
-    "imagesize":"270px"
+    "imagesize":"270px",
+    "imagemsg": "A flow model designed from the perspective of one of the interviewees."
   },
   "process4": {
     "title": "affinity wall",
     "content": {
       "description": [
-        "Using data we collected from our contextual interviews, we designed an affinity wall to uncover interconnecting themes and help us devise recommendations. The wall was completed over the course of two weeks and 12 hours. Four key findings were extrapolated from the affinity wall, one of which was that the board members had conflicting visions for the future of the Foundation."
+        "Using data we collected from our contextual interviews, we designed an affinity wall to uncover interconnecting themes and help us devise recommendations. Four key findings were extrapolated from the affinity wall, one of which was that the board members had conflicting visions for the future of the Foundation."
       ]
     },
 		"imageurl": "../images/MMS-affinity-wall.jpg",
-    "imagesize":"255px"
+    "imagesize":"255px",
+    "imagemsg": "Our completed affinity wall."
   },
   "process5": {
     "title": "findings & recommendations",
     "content": {
       "description": [
-        "Our final technical report included findings and recommendations (broken down by short and long-term) based on our contextual interviews and affinity map. We hope that these recommendations will address the communication issues among the board members and aid them in mission for the foundation overall.",
+        "Our final technical report included findings and recommendations (broken down by short and long-term) based on our contextual interviews and affinity diagram. We hope that these recommendations will address the communication issues among the board members and aid them in their mission for the foundation overall.",
         "Recommendations"
       ],
       "detail": [
@@ -94,7 +90,7 @@
 		"title": "reflection",
 		"content": {
 			"description": [
-				"A main takeaway for me from this project was that there are layers to a problem and just like people, problems can be complex. Our team was initially asked to identify the information flow breakdowns between the board of directors and their stakeholders. Our findings revealed that there was not only an information flow breakdown between the Foundation and the Molly Maid system, but there were also communication breakdowns among the board members."
+				"A main takeaway from this project was that there are layers to a problem and just like people, problems can be complex. Our team was initially asked to identify the information flow breakdowns between the board of directors and their stakeholders. Our findings revealed that there was not only an information flow breakdown between the Foundation and the Molly Maid system, but there were also communication breakdowns among the board members."
 			]
 		}
 	}

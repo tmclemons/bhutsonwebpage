@@ -1,5 +1,7 @@
 let main = require('../controllers/main');
 let nav = require('../controllers/nav');
+let contactForm = require('../controllers/contactform');
+
 
 
 
@@ -34,7 +36,7 @@ function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, lo
           controller: nav.controller
         },
         'drawer@main.homepage': {
-          tempalteUrl: 'components/drawer.html',
+          templateUrl: 'partials/drawer.html',
           controller: nav.controller
         }
       }
@@ -57,7 +59,7 @@ function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, lo
           controller: nav.controller
         },
         'drawer@main.entries': {
-          tempalteUrl: 'components/drawer.html',
+          templateUrl: 'partials/drawer.html',
           controller: nav.controller
         }
       }
@@ -77,7 +79,7 @@ function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, lo
           controller: nav.controller
         },
         'drawer@main.about': {
-          tempalteUrl: 'components/drawer.html',
+          templateUrl: 'partials/drawer.html',
           controller: nav.controller
         }
       }
@@ -97,7 +99,7 @@ function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, lo
           controller: nav.controller
         },
         'drawer@main.contact': {
-          tempalteUrl: 'components/drawer.html',
+          templateUrl: 'partials/drawer.html',
           controller: nav.controller
         }
       }

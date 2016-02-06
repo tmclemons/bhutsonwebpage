@@ -8,17 +8,19 @@
 		"title": "overview",
 		"role": "Interaction Designer",
 		"timeframe": "January 2015-April 2015",
-		"imageurl": ""
+		"imageurl": "",
+    "imagemsg": "filler comment"
 	},
 	"work-performed": {
 		"title": "work performed",
 		"content": {
 			"description": [
-				"UX Design (Sketching, storyboards, scenarios, paper prototyping, wireframes, digital prototype built in Axure"
+				"UX Design (Sketching, storyboards, scenarios, paper prototyping, wireframes, digital prototype built in Axure.)"
 			]
 		},
 		"imageurl": "../images/RR-azure-wireframe.png",
-    "imagesize":"460px"
+    "imagesize":"460px",
+    "imagemsg": "The wireframe of the Remembering Riverhead site."
 	},
 	"background": {
 		"title": "background",
@@ -38,7 +40,8 @@
       ]
     },
     "imageurl": "../images/RR-sketches.jpg",
-    "imagesize":"320px"
+    "imagesize":"320px",
+    "imagemsg": "I completed 40 sketches."
   },
   "process2": {
 		"title": "scenarios & storyboard",
@@ -48,7 +51,8 @@
 			]
 		},
     "imageurl": "../images/RR-storyboard.png",
-    "imagesize":"445px"
+    "imagesize":"445px",
+    "imagemsg": "The storyboard that I designed."
 	},
   "process3": {
 		"title": "prototyping & wireframing",
@@ -58,7 +62,8 @@
 			]
 		},
     "imageurl": "../images/RR-digital-prototype.png",
-    "imagesize":"530px"
+    "imagesize":"530px",
+    "imagemsg": "The final prototype."
 	},
 	"reflection": {
 		"title": "reflection",
