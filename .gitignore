@@ -1,12 +1,5 @@
-node_modules
-dev/bower_components
-.tmp
-build
-ux-ignite
-app/images
-build/images
-app/bower_components
 images
-*.png
-*.jpg
-*.mp4
+app/bower_components
+node_modules
+server
+build
