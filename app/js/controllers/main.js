@@ -9,23 +9,28 @@ var main = {
       $scope.articleList =[
         {
           "articleName": "business connect",
-          "articleFn": "businessConnect"
+          "articleFn": "businessConnect",
+          "articleImg":"../../../images/BC-exposition-poster.jpg"
         },
         {
           "articleName": "cengage learning",
-          "articleFn": "cengageLearning"
+          "articleFn": "cengageLearning",
+          "articleImg":"../../../images/CG-debrief.jpg"
         },
         {
           "articleName": "my talk tools",
-          "articleFn": "myTalkTools"
+          "articleFn": "myTalkTools",
+          "articleImg":"../../../images/MTT-usability.png"
         },
         {
           "articleName": "ms. molly foundation",
-          "articleFn": "msMollyFoundation"
+          "articleFn": "msMollyFoundation",
+          "articleImg":"../../../images/MMS-affinity-wall.jpg"
         },
         {
           "articleName": "remembering riverhead",
-          "articleFn": "rememberingRiverhead"
+          "articleFn": "rememberingRiverhead",
+          "articleImg":"../../../images/RR-sketches.jpg"
         }
       ];
 
@@ -44,6 +49,10 @@ var main = {
         $http.get('data/articles/msmolly-foundation.json').success(function(data){
           $scope.msMollyFoundation = data;
         });
+        $http.get('data/articles/about-me.json').success(function(data){
+          $scope.aboutMe = data;
+        });
+
 
         let locationUrl = $location.url();
         $scope.routes = locationUrl.replace('/entry?page=', '');

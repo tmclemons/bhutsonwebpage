@@ -2,7 +2,7 @@
   class="card-0{{$index}}",
   ng-class="{'no-image' : !section.imageurl}"
   )
-  .mdl-card__media.entry.mdl-color-text--grey-50
+  .mdl-card__media.entry
     h3 {{section.title}}
   .mdl-card__supporting-text(
     class="child-0{{$index}}"
@@ -29,9 +29,12 @@
     p(ng-repeat="descItems2 in process.description2")
       span {{descItems2}}
 .mdl-card.image.mdl-shadow--4dp(
-  style="background-image: url('{{section.imageurl}}'); height: {{section.imagesize}};",
   class="image-0{{$index}}"
   ng-if="section.imageurl"
   )
+    img(
+      src="{{section.imageurl}}",
+      style="max-height: {{section.imagesize}};"
+      )
   .mdl-card__title.mdl-card--expand
   .mdl-card__actions

@@ -1,0 +1,35 @@
+$mdl-blue: rgb(62, 78, 184);
+
+.centered{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.mdl-card.background-image{
+  background-size:cover;
+  height: 250px;
+  .mdl-card__title{
+    height: 200px;
+    h2{
+      position: absolute;
+      color:white;
+      font-weight: 600;
+      padding:7px;
+      top: 20px;
+      border-radius: 3px;
+      text-transform: capitalize;
+      background-color: rgba($mdl-blue, 1);
+    }
+  }
+
+  .mdl-card__actions{
+    padding: 8px 16px;
+  }
+}
+
+.mdl-button.button-color{
+  color:white;
+  font-weight:600;
+  background-color: $mdl-blue;
+}
