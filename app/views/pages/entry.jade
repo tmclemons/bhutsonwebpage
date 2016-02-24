@@ -1,10 +1,2 @@
-.portfolio.mdl-grid(ng-repeat="section in businessConnect" ng-if="routes === 'businessConnect' && !section.banner")
-  include ../partial/entryitems.jade
-.portfolio.mdl-grid(ng-repeat="section in cengageLearning" ng-if="routes === 'cengageLearning' && !section.banner")
-  include ../partial/entryitems.jade
-.portfolio.mdl-grid(ng-repeat="section in msMollyFoundation" ng-if="routes === 'msMollyFoundation' && !section.banner")
-  include ../partial/entryitems.jade
-.portfolio.mdl-grid(ng-repeat="section in rememberingRiverhead" ng-if="routes === 'rememberingRiverhead' && !section.banner")
-  include ../partial/entryitems.jade
-.portfolio.mdl-grid(ng-repeat="section in myTalkTools" ng-if="routes === 'myTalkTools' && !section.banner")
+.portfolio.mdl-grid(ng-repeat="section in routeData" ng-class="{'display-none': section.banner}")
   include ../partial/entryitems.jade

@@ -6,5 +6,5 @@
     .mdl-card__title
       h2.mdl-card__title-text {{item.articleName}}
     .mdl-card__actions.mdl-card--border
-      a.mdl-button.button-color.mdl-js-button.mdl-js-ripple-effect(ui-sref="main.entries({page: item.articleFn})")
+      a.mdl-button.button-color.mdl-js-button.mdl-js-ripple-effect(ui-sref="main.entries({page: item.articleFn, path: item.articlePath})"  ui-sref-opts="{reload: true, inherit: false, notify: true}")
         | Get Started

@@ -2,7 +2,6 @@
 	"header": {
 		"title": "business connect",
 		"imageurl": "",
-    "imagesize": "",
     "imagemsg": "filler comment",
 		"banner": true
 	},
@@ -12,7 +11,6 @@
 		"role": "Client Liaison, Project Manager, User Researcher",
 		"timeframe": "September 2015-December 2015",
 		"team": "2 people",
-    "imagesize": "750px",
 		"imageurl": "../../../images/BC-team-photo.jpg",
     "imagemsg": "filler comment",
 		"content": {
@@ -77,7 +75,6 @@
       ]
     },
     "imageurl": "../../../images/BC-comparative-analysis.png",
-    "imagesize": "330px",
     "imagemsg":"filler comment"
   },
   "process3": {
@@ -89,7 +86,6 @@
       ]
     },
     "imageurl": "../../../images/BC-process-map.png",
-    "imagesize": "330px",
     "imagemsg":"filler comment"
   },
   "process4": {
@@ -100,7 +96,6 @@
       ]
     },
     "imageurl": "../../../images/BC-homepage-prototype.jpg",
-    "imagesize": "360px"
   },
 	"conclusion": {
 		"title": "conclusion",
@@ -118,7 +113,6 @@
 			"description2": "We hope this provides the City with a solid foundation to move toward development."
 		},
 		"imageurl": "../../../images/BC-exposition-poster.jpg",
-    "imagesize": "660px",
     "imagemsg":"filler comment"
 	},
 	"reflection": {

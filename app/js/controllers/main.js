@@ -3,61 +3,77 @@
 let R = require('ramda');
 
 var main = {
-  controller: ['$scope', '$state', '$http', '$stateParams', '$q', '$cookieStore', '$location',
-    ($scope, $state, $http, $stateParams, $q, $cookiesStore, $location) => {
-
-      $scope.articleList =[
+  controller: ['$scope', '$state', '$http', '$stateParams', '$q', '$location', '$timeout',
+    ($scope, $state, $http, $stateParams, $q, $location, $timeout) => {
+      let locationUrl = $location.url();
+      let currentRoutes = locationUrl.replace('/entry?page=', '');
+      let articleListItems =[
         {
           "articleName": "business connect",
           "articleFn": "businessConnect",
-          "articleImg":"../../../images/BC-exposition-poster.jpg"
+          "articleImg": "../../../images/BC-exposition-poster.jpg",
+          "articlePath": "data/articles/business-connect.json"
         },
         {
           "articleName": "cengage learning",
           "articleFn": "cengageLearning",
-          "articleImg":"../../../images/CG-debrief.jpg"
+          "articleImg": "../../../images/CG-debrief.jpg",
+          "articlePath": "data/articles/cengage-learning.json"
         },
         {
           "articleName": "my talk tools",
           "articleFn": "myTalkTools",
-          "articleImg":"../../../images/MTT-usability.png"
+          "articleImg": "../../../images/MTT-usability.png",
+          "articlePath": "data/articles/mytalk-tools.json"
         },
         {
           "articleName": "ms. molly foundation",
           "articleFn": "msMollyFoundation",
-          "articleImg":"../../../images/MMS-affinity-wall.jpg"
+          "articleImg": "../../../images/MMS-affinity-wall.jpg",
+          "articlePath": "data/articles/msmolly-foundation.json"
         },
         {
           "articleName": "remembering riverhead",
           "articleFn": "rememberingRiverhead",
-          "articleImg":"../../../images/RR-sketches.jpg"
+          "articleImg": "../../../images/RR-sketches.jpg",
+          "articlePath": "data/articles/remembering-riverhead.json"
         }
       ];
+      $scope.articleList = articleListItems;
 
-        $http.get('data/articles/business-connect.json').success(function(data){
-          $scope.businessConnect = data;
-        });
-        $http.get('data/articles/cengage-learning.json').success(function(data){
-          $scope.cengageLearning = data;
-        });
-        $http.get('data/articles/remembering-riverhead.json').success(function(data){
-          $scope.rememberingRiverhead = data;
-        });
-        $http.get('data/articles/mytalk-tools.json').success(function(data){
-          $scope.myTalkTools = data;
-        });
-        $http.get('data/articles/msmolly-foundation.json').success(function(data){
-          $scope.msMollyFoundation = data;
-        });
-        $http.get('data/articles/about-me.json').success(function(data){
-          $scope.aboutMe = data;
-        });
+      $http.get(findPath()).success(function(data){
+        $scope.routeData = data;
+      });
 
+      function findPath(){
+        for (var i = 0; i < articleListItems.length; i++) {
+          if(articleListItems[i].articleFn === currentRoutes){
+            return articleListItems[i].articlePath
+          }
+        }
+      }
 
-        let locationUrl = $location.url();
-        $scope.routes = locationUrl.replace('/entry?page=', '');
-
+      window.addEventListener("load", function entryImageDimensions(event){
+        window.removeEventListener("load", entryImageDimensions, false);
+        var entryCard = document.getElementsByClassName('entry-images');
+        var entryImageHeightItem;
+        $scope.entryImageMaxHeight = [];
+        $scope.test = "300px";
+        var entryHeights = [];
+        for (var i = 0; i < entryCard.length; i++) {
+          var entryImage = entryCard[i];
+          var entryImageHeight = entryImage.naturalHeight || 0;
+          var entryImageWidth = entryImage.naturalWidth || 0;
+          var entryImageRatio = (entryImageHeight / entryImageWidth) || 0;
+          var actualWidth = entryImage.offsetWidth || 0;
+          entryImageHeightItem = actualWidth * entryImageRatio;
+          entryHeights.push({
+            height: entryImageHeightItem
+          });
+        }
+        $scope.entryImageMaxHeight = entryHeights;
+        $scope.$digest();
+      })
   }]
 };
-
 module.exports = main;
