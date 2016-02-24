@@ -21,8 +21,6 @@ let deps = [
 
 let app = angular.module('app', deps)
 
-app.directive('sfAdditionalDrawerButton', require('./directives/additionaldrawerbutton'));
-
 app.run(['$rootScope', '$location', '$timeout', function($rootScope, $location, $timeout) {
   $rootScope.$on('$stateChangeError', (event, toState, toParams, fromState, fromParams, error) => {
       console.log(error);

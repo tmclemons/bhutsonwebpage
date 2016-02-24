@@ -39,11 +39,40 @@ var main = {
           "articlePath": "data/articles/remembering-riverhead.json"
         }
       ];
+
       $scope.articleList = articleListItems;
+
+      // $scope.cacheVersion = ( new Date() ).getTime();
+
 
       $http.get(findPath()).success(function(data){
         $scope.routeData = data;
       });
+
+      entryImageDimensions();
+
+
+
+    function entryImageDimensions() {
+      var entryCard = document.getElementsByClassName('entry-images');
+      var entryImageHeightItem;
+      $scope.entryImageMaxHeight = [];
+      var entryHeights = [];
+      for (var i = 0; i < entryCard.length; i++) {
+        var entryImage = entryCard[i];
+        var entryImageHeight = entryImage.naturalHeight || 0;
+        var entryImageWidth = entryImage.naturalWidth || 0;
+        var entryImageRatio = (entryImageHeight / entryImageWidth) || 0;
+        var actualWidth = entryImage.offsetWidth || 0;
+        entryImageHeightItem = actualWidth * entryImageRatio;
+        entryHeights.push({
+          height: entryImageHeightItem
+        });
+      }
+      $scope.entryImageMaxHeight = entryHeights;
+      console.log(entryHeights[1])
+    }
+
 
       function findPath(){
         for (var i = 0; i < articleListItems.length; i++) {
@@ -53,27 +82,6 @@ var main = {
         }
       }
 
-      window.addEventListener("load", function entryImageDimensions(event){
-        window.removeEventListener("load", entryImageDimensions, false);
-        var entryCard = document.getElementsByClassName('entry-images');
-        var entryImageHeightItem;
-        $scope.entryImageMaxHeight = [];
-        $scope.test = "300px";
-        var entryHeights = [];
-        for (var i = 0; i < entryCard.length; i++) {
-          var entryImage = entryCard[i];
-          var entryImageHeight = entryImage.naturalHeight || 0;
-          var entryImageWidth = entryImage.naturalWidth || 0;
-          var entryImageRatio = (entryImageHeight / entryImageWidth) || 0;
-          var actualWidth = entryImage.offsetWidth || 0;
-          entryImageHeightItem = actualWidth * entryImageRatio;
-          entryHeights.push({
-            height: entryImageHeightItem
-          });
-        }
-        $scope.entryImageMaxHeight = entryHeights;
-        $scope.$digest();
-      })
   }]
 };
 module.exports = main;

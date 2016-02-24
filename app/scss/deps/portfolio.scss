@@ -1,6 +1,6 @@
 $mdl-blue: rgb(62, 78, 184);
 
-@media only screen and (min-width: 630px){
+@media only screen and (min-width: 1030px){
   .portfolio{
       .mdl-card{
         margin: 0 8px;
@@ -25,7 +25,7 @@ $mdl-blue: rgb(62, 78, 184);
   }
 }
 
-@media only screen and (max-width: 629px){
+@media only screen and (max-width: 1029px){
   .portfolio{
     .mdl-card{
       background-color:white;
