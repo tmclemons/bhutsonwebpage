@@ -2,7 +2,6 @@
 
 
 import angular from 'angular';
-// var angular = require('angular'),
 
 let uiRouter = require('angular-ui-router');
 
@@ -25,6 +24,7 @@ app.run(['$rootScope', '$location', '$timeout', function($rootScope, $location, 
   $rootScope.$on('$stateChangeError', (event, toState, toParams, fromState, fromParams, error) => {
       console.log(error);
   });
+
 
   $rootScope.$on('$viewContentLoaded', ()=> {
     $timeout(() => {

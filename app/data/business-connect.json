@@ -2,7 +2,7 @@
 	"header": {
 		"title": "business connect",
 		"imageurl": "",
-    "imagemsg": "filler comment",
+		"imagemsg": "filler comment",
 		"banner": true
 	},
 	"overview": {
@@ -12,7 +12,7 @@
 		"timeframe": "September 2015-December 2015",
 		"team": "2 people",
 		"imageurl": "../../../images/BC-team-photo.jpg",
-    "imagemsg": "filler comment",
+		"imagemsg": "filler comment",
 		"content": {
 			"description": []
 		}
@@ -45,58 +45,58 @@
 			"solution": "To address these issues, the City of Jackson will use their $50,000 grant to create Business Connect, a centralized online platform to streamline business startup in Jackson."
 		}
 	},
-  "process1": {
-    "title": "interviews & focus group",
-    "content": {
-      "description": [
-        "To begin, our team conducted interviews with stakeholders to gain more context about the problem. We first had a meeting with the Vice Mayor to learn more about the problem, his goals, and his expectations of the team.",
-        "We then met with two additional stakeholders: The City of Jackson’s Economic Development Director and the Executive Director of the Jackson County Chamber of Commerce. Next, the team hosted a focus group with representatives from the Small Business Development Center, area banks, and supporters and members of the Jackson small business community.",
-        "During the focus group, we gathered additional information about the current process for obtaining materials to start a business, and to brainstorm possible solutions through Business Connect. We learned that in addition to having difficulty finding and comprehending the required forms, entrepreneurs also had difficulty completing important and helpful milestones crucial for starting a business, such as a business plan.",
-        "We also conducted interviews with current business owners about their experience in starting a business and to understand their challenges.",
-        "The team’s initial solution was to design and complete front-end development for a business portal. This business portal would include a shopping cart feature, in which the user could search for the forms they need, drag and drop them into a shopping cart, and receive a total price and a timeline for when they could expect their forms to be accepted by the respective government institution. The portal would also provide a step-by-step guide for starting a business. The guide outlined 8 steps in the following order:"
-      ],
-      "detail": [
-        "Create a Plan",
-        "Financing Your Business",
-        "Finding a Location",
-        "Building Inspections",
-        "Permits & Licenses",
-        "Taxes & Accounting",
-        "Legal Services",
-        "Hiring Employees"
-      ]
-    }
-  },
-  "process2": {
-    "title": "comparative analysis",
-    "content": {
-      "description": [
-        "We completed a comparative analysis of other regions’ small business portals to help inspire our design, including San Francisco, California; Stamford, Connecticut; Los Angeles, California; Seattle, Washington; New Jersey; Missouri; and Washington, D.C. From this analysis, we identified designs and features we wanted to test with future prototypes."
-      ]
-    },
-    "imageurl": "../../../images/BC-comparative-analysis.png",
-    "imagemsg":"filler comment"
-  },
-  "process3": {
-    "title": "process diagram",
-    "content": {
-      "description": [
-        "Based on feedback from our classmates and instructional team, our group also explored designing a process diagram that could be printed and distributed by City Hall and the JCCC. This process diagram highlighted the eight steps used in our initial design for starting a business.",
-        "The goal of the process diagram was to provide entrepreneurs with a straightforward visual representation of the startup process. However, in keeping with the parameters of the Startup In A Day grant, the group revisited a digital solution."
-      ]
-    },
-    "imageurl": "../../../images/BC-process-map.png",
-    "imagemsg":"filler comment"
-  },
-  "process4": {
-    "title": "prototyping & design assessments",
-    "content": {
-      "description": [
-        "We conducted three different rounds of design assessments using prototypes built in Balsamiq, Marvel and Axure. Using the prototypes, we sought feedback from current business owners about content, features, menu options, and navigation. From this feedback, the team completed another iteration of our design, which we presented to the stakeholders for more feedback. Their feedback was used to complete our final iteration."
-      ]
-    },
-    "imageurl": "../../../images/BC-homepage-prototype.jpg",
-  },
+	"process1": {
+		"title": "interviews & focus group",
+		"content": {
+			"description": [
+				"To begin, our team conducted interviews with stakeholders to gain more context about the problem. We first had a meeting with the Vice Mayor to learn more about the problem, his goals, and his expectations of the team.",
+				"We then met with two additional stakeholders: The City of Jackson’s Economic Development Director and the Executive Director of the Jackson County Chamber of Commerce. Next, the team hosted a focus group with representatives from the Small Business Development Center, area banks, and supporters and members of the Jackson small business community.",
+				"During the focus group, we gathered additional information about the current process for obtaining materials to start a business, and to brainstorm possible solutions through Business Connect. We learned that in addition to having difficulty finding and comprehending the required forms, entrepreneurs also had difficulty completing important and helpful milestones crucial for starting a business, such as a business plan.",
+				"We also conducted interviews with current business owners about their experience in starting a business and to understand their challenges.",
+				"The team’s initial solution was to design and complete front-end development for a business portal. This business portal would include a shopping cart feature, in which the user could search for the forms they need, drag and drop them into a shopping cart, and receive a total price and a timeline for when they could expect their forms to be accepted by the respective government institution. The portal would also provide a step-by-step guide for starting a business. The guide outlined 8 steps in the following order:"
+			],
+			"detail": [
+				"Create a Plan",
+				"Financing Your Business",
+				"Finding a Location",
+				"Building Inspections",
+				"Permits & Licenses",
+				"Taxes & Accounting",
+				"Legal Services",
+				"Hiring Employees"
+			]
+		}
+	},
+	"process2": {
+		"title": "comparative analysis",
+		"content": {
+			"description": [
+				"We completed a comparative analysis of other regions’ small business portals to help inspire our design, including San Francisco, California; Stamford, Connecticut; Los Angeles, California; Seattle, Washington; New Jersey; Missouri; and Washington, D.C. From this analysis, we identified designs and features we wanted to test with future prototypes."
+			]
+		},
+		"imageurl": "../../../images/BC-comparative-analysis.png",
+		"imagemsg": "filler comment"
+	},
+	"process3": {
+		"title": "process diagram",
+		"content": {
+			"description": [
+				"Based on feedback from our classmates and instructional team, our group also explored designing a process diagram that could be printed and distributed by City Hall and the JCCC. This process diagram highlighted the eight steps used in our initial design for starting a business.",
+				"The goal of the process diagram was to provide entrepreneurs with a straightforward visual representation of the startup process. However, in keeping with the parameters of the Startup In A Day grant, the group revisited a digital solution."
+			]
+		},
+		"imageurl": "../../../images/BC-process-map.png",
+		"imagemsg": "filler comment"
+	},
+	"process4": {
+		"title": "prototyping & design assessments",
+		"content": {
+			"description": [
+				"We conducted three different rounds of design assessments using prototypes built in Balsamiq, Marvel and Axure. Using the prototypes, we sought feedback from current business owners about content, features, menu options, and navigation. From this feedback, the team completed another iteration of our design, which we presented to the stakeholders for more feedback. Their feedback was used to complete our final iteration."
+			]
+		},
+		"imageurl": "../../../images/BC-homepage-prototype.jpg"
+	},
 	"conclusion": {
 		"title": "conclusion",
 		"content": {
@@ -113,7 +113,7 @@
 			"description2": "We hope this provides the City with a solid foundation to move toward development."
 		},
 		"imageurl": "../../../images/BC-exposition-poster.jpg",
-    "imagemsg":"filler comment"
+		"imagemsg": "filler comment"
 	},
 	"reflection": {
 		"title": "reflection",

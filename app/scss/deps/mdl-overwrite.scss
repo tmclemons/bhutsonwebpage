@@ -10,3 +10,12 @@
   bottom: 0;
   width: 100%;
 }
+
+
+
+
+
+
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active::after{
+    height: 5px;
+}

@@ -1,4 +1,4 @@
-.mdl-grid(ng-repeat="item in articleList")
+.mdl-grid.animate(ng-repeat="item in articleList" ng-if="item.articleFn !== 'about-me'")
   .mdl-card.mdl-shadow--2dp.mdl-cell.mdl-cell--8-col(
       class="centered background-image"
       style="background-image:url('{{item.articleImg}}')"

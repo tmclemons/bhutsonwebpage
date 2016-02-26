@@ -3,9 +3,30 @@ header.mdl-layout__header.mdl-layout__header--scroll{
   background-size:cover;
   background-position-y: 50%;
   .mdl-layout__header-row{
+    .mdl-button{
+      left: 0;
+      position: absolute;
+      margin-left: 15px;
+      margin-top: 15px;
+      color: white;
+      i{
+        font-size: 34px;
+      }
+      &.mdl-button--fab{
+        background: transparent;
+        box-shadow: none;
+      }
+    }
     h3{
       text-align: center;
       width: 100%;
+    }
+    nav.mdl-navigation{
+      align-items: flex-end;
+      .mdl-navigation__link.mdl-layout__tab{
+        line-height: 50px;
+        font-size: 30px;
+      }
     }
   }
   // .mdl-layout__drawer-button {

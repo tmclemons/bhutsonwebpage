@@ -64,13 +64,16 @@ function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, lo
       }
     })
     .state('main.about', {
-      url: '/about',
+      url: '/info?page',
+      params: {
+        page: 'about-me'
+      },
       views: {
         '@': {
           templateUrl: 'pages/main.html'
         },
         'content@main.about': {
-          templateUrl: 'pages/about.html',
+          templateUrl: 'pages/aboutme.html',
           controller: main.controller
         },
         'header@main.about':{

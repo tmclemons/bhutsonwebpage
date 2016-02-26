@@ -10,7 +10,7 @@
 		"content": {
 			"description": [
         "I am a ",
-        "Journalist – turned - User Experience Researcher ",
+        "Journalist – turned - User Experience Researcher",
         "with interests in information architecture, content strategy and UX Design."
 			],
       "description2": [
@@ -42,7 +42,6 @@
     "title": "video",
     "content": {
       "description": [
-        "video interview"
       ]
     },
     "videourl":"../../../images/uxignite.mp4"
