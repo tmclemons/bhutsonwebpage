@@ -43,11 +43,12 @@ $mdl-blue: rgb(62, 78, 184);
   .mdl-card__title{
     height: 200px;
     h2{
+
       position: absolute;
       color:white;
       font-weight: 600;
       padding: 10px 15px;
-      top: 20px;
+      top: 22px;
       border-radius: 3px;
       text-transform: capitalize;
       background-color: rgba($mdl-blue, 1);
