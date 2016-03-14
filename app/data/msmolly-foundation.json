@@ -1,0 +1,96 @@
+{
+	"header": {
+		"title": "the ms molly foundation",
+		"imageurl": "",
+		"banner": true
+	},
+	"overview": {
+		"title": "overview",
+		"role": "Researcher",
+		"timeframe": "January 2015-April 2015",
+		"team": "4 people",
+		"imageurl": "",
+		"imagemsg": "filler comment",
+		"content": {
+			"description": []
+		}
+	},
+	"work-performed": {
+		"title": "work performed",
+		"tools": "",
+		"methods": "",
+		"content": {
+			"description": [
+				"Qualitative User Research (Contextual Inquiry, Affinity Mapping)"
+			]
+		}
+	},
+	"background": {
+		"title": "background",
+		"content": {
+			"description": [
+				"The Ms. Molly Foundation is a non-profit organization based in Ann Arbor, MI dedicated to stopping the cycle of domestic violence. The Foundation is the non-profit arm of the Molly Maid professional home cleaning service, which includes over 200 franchise owners throughout the world."
+			],
+			"problem": "The communication practices between Ms. Molly’s Board of Directors and stakeholders (mostly within the Molly Maid system) are inconsistent and ineffective. The information about the board’s decisions and programs often fail to reach the intended audience(s), and as a result, the board often does not get the response that they expect from constituents. Our team was asked to identify the information flow breakdowns and provide recommendations on they could be fixed."
+		},
+		"imageurl": "../../../images/MMS-logo.png",
+		"imagesize": "400px",
+		"imagemsg": "filler comment"
+	},
+	"process2": {
+		"title": "understanding the problem",
+		"content": {
+			"description": [
+				"To understand the information flow breakdowns, we conducted 7 interviews with six board members, one former board member and the Public Relations Manager. Three of the interviews were conducted on the phone and four were in person. Of those conducted in person, we observed the interviewee’s environment, software, hardware and interactions with colleagues."
+			]
+		},
+		"imageurl": "../../../images/MMS-contextual-inquiry-interview.JPG",
+		"imagesize": "340px",
+		"imagemsg": "The Public Relations Mqanager's desk during our contextual interview."
+	},
+	"process3": {
+		"title": "work models",
+		"content": {
+			"description": [
+				"To visually represent an individual’s work patterns and information flows, each team member created a work model. I designed a flow model to illustrate the role of different users and how they communicate and coordinate to get work done. This flow model represents the perspective of one of the interviewees."
+			]
+		},
+		"imageurl": "../../../images/MMS-workmodel.png",
+		"imagesize": "270px",
+		"imagemsg": "A flow model I designed from the perspective of one of the interviewees."
+	},
+	"process4": {
+		"title": "affinity wall",
+		"content": {
+			"description": [
+				"Using data we collected from our contextual interviews, we designed an affinity wall to uncover interconnecting themes and help us devise recommendations. Four key findings were extrapolated from the affinity wall, one of which was that the board members had conflicting visions for the future of the Foundation."
+			]
+		},
+		"imageurl": "../../../images/MMS-affinity-wall.jpg",
+		"imagesize": "255px",
+		"imagemsg": "Our completed affinity wall."
+	},
+	"process5": {
+		"title": "findings & recommendations",
+		"content": {
+			"description": [
+				"Our final technical report included findings and recommendations (broken down by short and long-term) based on our contextual interviews and affinity diagram. We hope that these recommendations will address the communication issues among the board members and aid them in their mission for the foundation overall.",
+				"Recommendations"
+			],
+			"detail": [
+				"Utilize internal communication options, like the intranet page, to reach out to stakeholders;",
+				"Use free resources to enhance promotion efforts to the public;",
+				"Define job role, responsibilities and expectations for board members;",
+				"Vote on initiatives so that all board members are clear on the vision and direction of the foundation"
+			]
+		}
+	},
+	"reflection": {
+		"title": "reflection",
+		"content": {
+			"description": [
+				"This was my first introduction to the method of contextual inquiry. It seemed overwhelming at once, but I found that I enjoyed the analysis process."
+			]
+		}
+	}
+}
