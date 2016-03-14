@@ -6,16 +6,16 @@
 	},
 	"intro": {
 		"title": "intro",
-    "intro": "Hi, my name is Brittany.",
+		"intro": "Hi, my name is Brittany.",
 		"content": {
 			"description": [
-        "I am a ",
-        "Journalist – turned - User Experience Researcher",
-        "with interests in information architecture, content strategy and UX Design."
+				"I am a ",
+				"Journalist – turned - User Experience Researcher",
+				"with interests in information architecture, content strategy and UX Design."
 			],
-      "description2": [
-        "Due to my naturally curious personality, I strive to understand people and their behaviors in order to find solutions to complex problems. I want to engage in purpose-driven work that results in a positive impact for the targeted audience."
-      ]
+			"description2": [
+				"Due to my naturally curious personality, I strive to understand people and their behaviors in order to find solutions to complex problems. I want to engage in purpose-driven work that results in a positive impact for the targeted audience."
+			]
 		},
 		"imageurl": "../../../images/bhutson_profile.jpg"
 	},
@@ -23,28 +23,27 @@
 		"title": "about me",
 		"content": {
 			"description": [
-        "Richard Saul Wurman says there are essentially two kinds of people: how people and what people. I’d like to think of myself as a what person – the one who stops to think about what needs to be accomplished in the first place (“HATS”).",
-        "I’ve always been hungry to learn more, which is probably how I fell into journalism since the 5 w’s (who, what, where, when, why; bonus – how) are a regular part of my vocabulary.",
-        "Currently, I am a second-year graduate student at the University of Michigan School of Information studying human-computer interaction. I am seeking full time user experience research positions in the Detroit metropolitan area starting after graduation in May 2016."
+				"Currently, I am a second-year graduate student at the University of Michigan School of Information studying human-computer interaction. I am seeking full time user experience research positions in the Detroit metropolitan area starting in August 2016.",
+				"I'm naturally curious about human behavior. My talents as a user experience practioner are my abilities to assess problems and analyze data.",
+				"An East Coast girl in a Midwest world, I am originally from Long Island, NY. I received my bachelor's degree in English from Howard University in Washington, D.C..",
+				"While in school, I started my professional career in journalism after securing my first editorial internship with Black Enterprise magazine in New York City.",
+				"Since then, I gained skills in print and online journalism, social media, web production, and public relations. My work has been featured in Black Enterprise Magazine, Essence Magazine, The Wall Street Journal, Howard University's Alumni Magazine, TheAtlantaPost.com, MadameNoire.com, Diverse: Issues in Higher Education and Shelterforce Magazine."
 			],
-      "description2": [
-        "I’m an East Coast girl in a Midwest world. Originally from Long Island, NY, I received my undergraduate degree from Howard University in Washington, D.C. where my first career in journalism and communications was launched.",
-        "I have worked at and/or written for publications such as Black Enterprise magazine, Essence magazine, The Wall Street Journal, Diverse: Issues in Higher Education and Shelterforce magazine. I’ve gotten to talk to some pretty cool people over the years; one of my favorite interviews was with Carla Hall of ABC’s “The Chew”."
-      ],
-      "description3": [
-        "Outside of my professional interest in user experience, I also have an interest in entrepreneurship. I am enjoying the activity and the spirit of Detroit, especially as a foodie surrounded by so much great food!",
-        "I love animals and my happy places are home in LI, Eastern Market, Barnes & Noble, the gym and the kitchen.",
-        "Want to know more? Feel free to reach me via Email, Twitter or LinkedIn."
-      ]
+			"description2": [
+				"Outside of my professional interest in user experience, I also have an interest in entrepreneurship. I am enjoying the activity and the spirit of Detroit, especially as a foodie surrounded by so much great food!",
+				"I love animals and my happy places are home in LI, Eastern Market, Barnes & Noble, the gym and the kitchen.",
+				"Want to know more? Feel free to reach me via Email, Twitter or LinkedIn."
+			]
 		}
 	},
-  "video": {
-    "title": "video",
-    "content": {
-      "description": [
-      ]
-    },
-    "videourl":"../../../images/uxignite.mp4"
-  }
+	"video": {
+		"title": "video",
+		"content": {
+			"description": [
+			]
+		},
+		"videourl": "../../../images/uxignite.mp4",
+    "imagemsg": "In the fall of 2015, I was a speaker at Ignite UX Michigan, where I gave a 5 minute lightning talk about the importance of equitable design. This was my first public appearance and I am grateful for the opportunity to share my perspective with the UX community."
+	}
 
 }

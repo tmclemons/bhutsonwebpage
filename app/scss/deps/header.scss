@@ -3,7 +3,8 @@ header.mdl-layout__header.mdl-layout__header--scroll{
   background-size:cover;
   background-position-y: 50%;
   .mdl-layout__header-row{
-    .mdl-button{
+    position: relative;
+    .backbutton{
       left: 0;
       position: absolute;
       margin-left: 15px;
@@ -11,6 +12,7 @@ header.mdl-layout__header.mdl-layout__header--scroll{
       color: white;
       i{
         font-size: 34px;
+        user-select: none; 
       }
       &.mdl-button--fab{
         background: transparent;
@@ -20,16 +22,33 @@ header.mdl-layout__header.mdl-layout__header--scroll{
     h3{
       text-align: center;
       width: 100%;
+      font-weight: 300;
+      font-size: 50px;
+      @media screen and (max-width: 550px) {
+        margin-left: -15px;
+      }
+      span{
+        float: left;
+        width: 100%;
+        font-size: 20px;
+        margin-top:10px;
+        @media screen and (max-width: 550px){
+          font-size: 16px;
+          margin-top:5px;
+
+        }
+      }
+      @media screen and (max-width: 1024px) {
+        font-size: 35px;
+      }
     }
     nav.mdl-navigation{
       align-items: flex-end;
       .mdl-navigation__link.mdl-layout__tab{
         line-height: 50px;
+        font-weight: 300;
         font-size: 20px;
       }
     }
   }
-  // .mdl-layout__drawer-button {
-  //   background-color: rgba(0, 0, 0, 1);
-  // }
 }

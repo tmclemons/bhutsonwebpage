@@ -2,19 +2,18 @@
 	"header": {
 		"title": "business connect",
 		"imageurl": "",
-		"imagemsg": "filler comment",
 		"banner": true
 	},
 	"overview": {
 		"title": "overview",
-		"partner": "Derek Dobies, Vice Mayor of the City of Jackson, MI",
+		"partner": "The City of Jackson, MI",
 		"role": "Client Liaison, Project Manager, User Researcher",
 		"timeframe": "September 2015-December 2015",
 		"team": "2 people",
 		"imageurl": "../../../images/BC-team-photo.jpg",
-		"imagemsg": "filler comment",
+		"imagemsg": "My team members and I at the Citizen Interaction Design Exposition.",
 		"content": {
-			"description": []
+			"description": ["UX Research and UX Design"]
 		}
 	},
 	"work-performed": {
@@ -49,21 +48,10 @@
 		"title": "interviews & focus group",
 		"content": {
 			"description": [
-				"To begin, our team conducted interviews with stakeholders to gain more context about the problem. We first had a meeting with the Vice Mayor to learn more about the problem, his goals, and his expectations of the team.",
-				"We then met with two additional stakeholders: The City of Jackson’s Economic Development Director and the Executive Director of the Jackson County Chamber of Commerce. Next, the team hosted a focus group with representatives from the Small Business Development Center, area banks, and supporters and members of the Jackson small business community.",
-				"During the focus group, we gathered additional information about the current process for obtaining materials to start a business, and to brainstorm possible solutions through Business Connect. We learned that in addition to having difficulty finding and comprehending the required forms, entrepreneurs also had difficulty completing important and helpful milestones crucial for starting a business, such as a business plan.",
+				"Our team conducted interviews with stakeholders to gain more context about the problem. Next, we hosted a focus group with representatives from the Small Business Development Center, area banks, and supporters and members of the Jackson small business community.",
+				"During the focus group, we learned that in addition to having difficulty finding and comprehending the required forms, entrepreneurs also had difficulty completing important and helpful milestones crucial for starting a business, such as a business plan.",
 				"We also conducted interviews with current business owners about their experience in starting a business and to understand their challenges.",
-				"The team’s initial solution was to design and complete front-end development for a business portal. This business portal would include a shopping cart feature, in which the user could search for the forms they need, drag and drop them into a shopping cart, and receive a total price and a timeline for when they could expect their forms to be accepted by the respective government institution. The portal would also provide a step-by-step guide for starting a business. The guide outlined 8 steps in the following order:"
-			],
-			"detail": [
-				"Create a Plan",
-				"Financing Your Business",
-				"Finding a Location",
-				"Building Inspections",
-				"Permits & Licenses",
-				"Taxes & Accounting",
-				"Legal Services",
-				"Hiring Employees"
+				"The team’s initial solution was to design and complete front-end development for a business portal. This business portal would include a shopping cart feature, in which the user could search for the forms they need, drag and drop them into a shopping cart, and receive a total price and a timeline for when they could expect their forms to be accepted by the respective government institution. The portal would also provide a guide outling 8 steps for starting a business."
 			]
 		}
 	},
@@ -71,22 +59,22 @@
 		"title": "comparative analysis",
 		"content": {
 			"description": [
-				"We completed a comparative analysis of other regions’ small business portals to help inspire our design, including San Francisco, California; Stamford, Connecticut; Los Angeles, California; Seattle, Washington; New Jersey; Missouri; and Washington, D.C. From this analysis, we identified designs and features we wanted to test with future prototypes."
+				"We completed a comparative analysis of other regions’ small business portals to help inspire our design. From this analysis, we identified designs and features we wanted to test with future prototypes."
 			]
 		},
 		"imageurl": "../../../images/BC-comparative-analysis.png",
-		"imagemsg": "filler comment"
+		"imagemsg": "Comparative Analysis completed by Jaee Apte and Brittany Hutson"
 	},
 	"process3": {
 		"title": "process diagram",
 		"content": {
 			"description": [
-				"Based on feedback from our classmates and instructional team, our group also explored designing a process diagram that could be printed and distributed by City Hall and the JCCC. This process diagram highlighted the eight steps used in our initial design for starting a business.",
+				"Based on feedback from our classmates and instructional team, our group also explored designing a process diagram that could be printed and distributed by City Hall and the JCCC. This process diagram highlighted the 8 steps used in our initial design for starting a business.",
 				"The goal of the process diagram was to provide entrepreneurs with a straightforward visual representation of the startup process. However, in keeping with the parameters of the Startup In A Day grant, the group revisited a digital solution."
 			]
 		},
 		"imageurl": "../../../images/BC-process-map.png",
-		"imagemsg": "filler comment"
+		"imagemsg": "Flow diagram designed by Jaee Apte"
 	},
 	"process4": {
 		"title": "prototyping & design assessments",
@@ -95,7 +83,8 @@
 				"We conducted three different rounds of design assessments using prototypes built in Balsamiq, Marvel and Axure. Using the prototypes, we sought feedback from current business owners about content, features, menu options, and navigation. From this feedback, the team completed another iteration of our design, which we presented to the stakeholders for more feedback. Their feedback was used to complete our final iteration."
 			]
 		},
-		"imageurl": "../../../images/BC-homepage-prototype.jpg"
+		"imageurl": "../../../images/BC-homepage-prototype.jpg",
+		"imagemsg": "3rd version of prototype designed by Jaee Apte"
 	},
 	"conclusion": {
 		"title": "conclusion",
@@ -109,17 +98,16 @@
 				"Links to permits, licenses, and forms at the city, county, state, and federal levels",
 				"Three examples of popular business industries and a breakdown of the permits/licenses needed, the agency from where to obtain the form and a timeline for acceptance",
 				"A “Featured Business” section where users can read profiles and watch videos of successful local entrepreneurs to inspire users and encourage mentorship between entrepreneurs."
-			],
-			"description2": "We hope this provides the City with a solid foundation to move toward development."
+			]
 		},
 		"imageurl": "../../../images/BC-exposition-poster.jpg",
-		"imagemsg": "filler comment"
+		"imagemsg": "Our exposition poster"
 	},
 	"reflection": {
 		"title": "reflection",
 		"content": {
 			"description": [
-				"Through this studio-based course,  we had conversations reflecting on issues like civic technology, design and innovation, collaboration with local government and communities, adopting new technology, and sustainability.  This project was challenging in that this was the first time I was conducting research and devising the concept and design of a new online system that is schedule to be developed within a year. I also gained additional experience in project management, which was different compared to the project management technique I utilized as an editor. I appreciate that this project taught me to think beyond the design. It taught me to think about a design’s lifecycle and its long-term feasibility, as well as how it will affect the intended user(s) and stakeholder(s)."
+				"This project was challenging in that this was the first time I was conducting research and devising the concept and design of a new online system that is schedule to be developed within a year. I also gained additional experience in project management, which was different compared to the project management technique I utilized as an editor. I appreciate that this project taught me to think beyond the design. It taught me to think about a design’s lifecycle and its sustainability, as well as how it will affect the intended user(s) and stakeholder(s)."
 			]
 		}
 	}

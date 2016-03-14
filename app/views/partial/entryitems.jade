@@ -38,5 +38,5 @@
       src="{{section.imageurl}}"
       ng-style="{'max-height': entryImageMaxHeight[$index].height + 'px' }"
       )
-    .mdl-card__actions.image-title
+    .mdl-card__actions.image-title(ng-if="section.imagemsg")
       span {{section.imagemsg}}

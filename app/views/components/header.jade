@@ -1,13 +1,11 @@
-.mdl-layout__header-row.mdl-layout--large-screen-only
-  .mdl-button.mdl-js-button.mdl-button--fab( ui-sref='main.homepage' ng-if="currentPage === 'main.entries'")
-    i.material-icons arrow_back
-.mdl-layout__header-row.mdl-layout--small-screen-only
-  .mdl-button.mdl-js-button.mdl-button--fab( ui-sref='main.homepage' ng-if="currentPage === 'main.entries'")
-    i.material-icons arrow_back
+.mdl-layout__header-row
+  .backbutton( ui-sref='main.homepage' ng-show="toggleBack")
+    i.ion-android-arrow-back
 .mdl-layout__header-row.mdl-layout--large-screen-only
 .mdl-layout__header-row
   h3 {{site.author}}
-.mdl-layout__drawer-button.mdl-layout--small-screen-only(ng-hide="currentPage === 'main.entries'")
+    span {{site.tagline}}
+.mdl-layout__drawer-button.mdl-layout--small-screen-only(ng-hide="toggleBack")
    i.material-icons menu
 .mdl-layout__header-row
 .mdl-layout__header-row.mdl-layout--large-screen-only

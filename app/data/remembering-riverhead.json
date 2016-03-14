@@ -7,9 +7,7 @@
 	"overview": {
 		"title": "overview",
 		"role": "Interaction Designer",
-		"timeframe": "January 2015-April 2015",
-		"imageurl": "",
-    "imagemsg": "filler comment"
+		"timeframe": "January 2015-April 2015"
 	},
 	"work-performed": {
 		"title": "work performed",
@@ -58,18 +56,18 @@
 		"title": "prototyping & wireframing",
 		"content": {
 			"description": [
-        "To test my design, I created a paper prototype and a hi-fidelity prototype using Axure. I tested the paper prototype with several classmates to get feedback, which I incorporated into my digital prototypes. I made two iterations of my digital prototype, and each time I received feedback from my classmates."
+        "To test my design, I created a paper prototype and a hi-fidelity prototype. I tested the paper prototype with several classmates to get feedback, which I incorporated into my digital prototypes. I made two iterations of my digital prototype, and each time I received feedback from my classmates."
 			]
 		},
     "imageurl": "../../../images/RR-digital-prototype.png",
     "imagesize":"530px",
-    "imagemsg": "The final prototype."
+    "imagemsg": "The final prototype designed in Axure."
 	},
 	"reflection": {
 		"title": "reflection",
 		"content": {
 			"description": [
-				"I chose to pivot my project in the middle of the semester. My original project was focused on creating a mobile application in response to the growing issue of gang violence in Riverhead and surrounding towns. My initial idea was that the mobile application would provide information about the people in the area dedicated disseminating gang activity, information on how residents can protect themselves against gang activity, and contact information to report suspicious activity.",
+				"I chose to pivot my project in the middle of the semester. My original project was to create a mobile application in response to the growing issue of gang violence in Riverhead and surrounding towns. My initial idea was that the mobile application would provide information about the people in the area dedicated disseminating gang activity, information on how residents can protect themselves against gang activity, and contact information to report suspicious activity.",
 				"Residents could view neighborhood maps that would mark the locations of reported gang activity, and the app would provide phone numbers and social media links so residents could alert authorities and other community members if gang members are spotted or an activity is in process.",
 				"Before completing the sketching assignment, I completed a competitive analysis of other neighborhood watch applications. However, I became uncertain that gang activity was an issue that the residents back home really cared about. I wanted to see if there were more pressing issues that community members were talking about, which is when I came across the Facebook forum. Reading the discussions and comments, I learned that community members were talking about their concerns over how the town was changing.",
 				"This project was my first exposure to interaction and UX design. The course led me to gain a better understanding of the base principles of user-centered and participatory design. Coming from a journalism background, I could easily identify with relying on real user feedback to inspire designs and create tools that could have a real positive impact on a community."

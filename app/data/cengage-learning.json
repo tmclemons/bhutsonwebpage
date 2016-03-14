@@ -21,12 +21,12 @@
 			"description": [
         "This summer, I worked as User Experience intern with Cengage’s User Experience team in Farmington Hills, MI. Cengage Learning is an educational content, technology and services company for higher education and K-12, professional and library markets.",
         "As an intern, I practiced design and research methods for three major projects under Gale, the library reference arm of Cengage that specializes in e-research and educational publishing for libraries, schools and businesses. These projects included a new site redesign, a user study based on a site's updated UI and a user study for a new digital product.",
-        "Below is an overview of one of the projects I worked on this summer, as the remaining two projects are still ongoing."
+        "Below is an overview of one of the projects I worked on this summer."
 			]
 		},
     "imageurl":"../../../images/CG-debrief.jpg",
     "imagesize":"550px",
-    "imagemsg": "The Senior User Researcher and I analyzed our interviews to establish themes."
+    "imagemsg": "The Senior User Researcher and I analyzing our interviews."
 	},
 	"background": {
 		"title": "background",
@@ -35,18 +35,18 @@
         "In August, Gale released some significant UI changes to their Literature Resource Center (LRC) product / database.",
         "The changes are part of a long-term strategy to support consistencies across Gale products to improve the experience on mobile devices and streamline the design for easier student access."
 			],
-			"solution": "The goal of this internship was to understand the content and placement of new cards on the homepage and in search results."
+			"solution": "The goal of this study was to understand the content and placement of new cards on the homepage and in search results."
 		},
     "imageurl":"../../../images/CG-prototype.jpg",
     "imagesize":"550px",
-    "imagemsg": "Sketches and wireframing"
+    "imagemsg": "Sketching and wireframing"
 	},
   "process1": {
     "title": "process",
     "content": {
       "description": [
-        "I was responsible for recruiting participants for the study. Working with the Senior User Researcher, I helped to brainstorm recruitment questions and created a recruitment survey using Google forms. I also used to Ethnio tool to recruit current users of LRC. In 2 hours we recruited 11 participants. We selected 9 and completed 4 interviews.",
-        "I was also responsible for writing the moderator script. The interviews were conducted over 3 days at 30 minutes each. Using a combination of contextual inquiry and testing with a hi-fidelity prototype, we conducted interviews with high school, community college, and undergraduate students by phone and WebEx. The participants were encouraged to use the “think out loud” method as they looked at the current site and test site. I served as the note taker and co-moderator for the sessions.",
+        "I was responsible for recruiting participants for the study, which included creating a recruitment survey using Google forms and using Ethnio to recruit current users of LRC.",
+        "I was also responsible for writing the moderator script. Four interviews were conducted over 3 days at 30 minutes each using a combination of contextual inquiry and testing with a hi-fidelity prototype. I served as the note taker and co-moderator for the sessions.",
         "Following the interviews, we held debriefing sessions to share our notes and analyze data. We co-authored a report in PowerPoint to submit to product managers based on our observations and recommendations."
       ],
       "imageurl": "../../../images/CG-debrief.jpg",
@@ -58,9 +58,9 @@
 		"title": "overall reflection",
 		"content": {
 			"description": [
-        "Throughout the summer, I learned about the iterative design process and conducing user research using test designs. I was able to jump on other projects to practice the skills in my toolbox. For example, I provided support to a site redesign project. When I came on the project, I observed how the User Experience Designers were conducting user research by using test (prototype) designs to gather information from potential users.",
-        "I served as a note taker for (5) 1-hour interview sessions, known as design assessments, and participated in debriefing meetings. The site redesign project is going through an iterative process, consisting of rounds of designing prototypes, holding design assessments, analyzing data and using that to create a new test design.  I contributed sketches, wrote user scenarios and was able to practice prototyping in Axure.",
-        "I also contributed to another research study for a new digital product. For this project, I helped to recruit participants, schedule interviews, and wrote the moderator script. The study was conducted in Fall 2015 and consisted of 1 hour interviews with 14 students enrolled in community college, online university, and 4-year universities. The goal of the interviews was to learn about a student’s workflow process and to get feedback on designs using hi-fidelity prototypes.",
+        "Throughout the summer, I learned about the iterative design process and conducing user research using test designs.",
+        "For a site redesign, I assisted as a note taker for (5) 1-hour design assessments with potential users. I also contributed sketches, wrote user scenarios and was able to practice prototyping in Axure.",
+        "I contributed to another research study for a new digital product. For this project, I helped to recruit participants, schedule interviews, and wrote the moderator script. The study was conducted in Fall 2015 and consisted of 1 hour interviews with 14 students enrolled in community college, online university, and 4-year universities. The goal of the interviews was to learn about a student’s workflow process and to get feedback on designs using hi-fidelity prototypes.",
         "I enjoyed working with the User Experience team and this internship was invaluable in practicing user research and user-centered design methods."
 			]
 		}

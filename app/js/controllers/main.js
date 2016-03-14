@@ -1,6 +1,5 @@
 'use strict'
 
-let R = require('ramda');
 
 var main = {
   controller: ['$scope', '$state', '$http', '$stateParams', '$q', '$location', '$timeout',
