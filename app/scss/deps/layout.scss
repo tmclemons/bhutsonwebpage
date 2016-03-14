@@ -1,0 +1,86 @@
+$mdl-blue: rgb(62, 78, 184);
+
+.centered{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.topbottom{
+  margin-top: calc(10vh);
+  margin-bottom: calc(10vh);
+}
+
+.mdl-card__title.contact{
+  .socialmedia{
+    margin-left: auto;
+    display: flex;
+    width: 50px;
+    font-size: 20px;
+    i{
+      flex:1;
+    }
+  }
+}
+
+
+.drawer-header{
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: $mdl-blue;
+    padding: 10px 15px;
+    color: white;
+    text-transform: capitalize;
+    i{
+      margin-right: 10px;
+      user-select: none;
+    }
+}
+
+.mdl-card.background-image{
+  background-size:cover;
+  height: 250px;
+  .mdl-card__title{
+    height: 200px;
+    h2{
+      position: absolute;
+      color:white;
+      font-weight: 600;
+      padding: 10px 15px;
+      top: 20px;
+      border-radius: 3px;
+      text-transform: capitalize;
+      background-color: rgba($mdl-blue, 1);
+    }
+  }
+
+  .mdl-card__actions{
+    padding: 8px 16px;
+    .tags{
+      float:right;
+      display:flex;
+      span{
+        flex:1;
+        background-color:#6A75BF;
+        padding: 3px 6px;
+        font-size: 14px;
+        border-radius: 2px;
+        color:white;
+        margin: 5px 5px;
+      }
+    }
+  }
+}
+
+.mdl-button.button-color{
+  color:white;
+  font-weight:600;
+  background-color: $mdl-blue;
+}
+
+.mdl-navigation__link{
+  font-size: 16px;
+  i{
+    margin-right: 15px;
+  }
+}

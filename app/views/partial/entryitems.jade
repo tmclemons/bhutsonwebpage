@@ -1,0 +1,42 @@
+.mdl-card.mdl-shadow--4dp(
+  class="card-0{{$index}}",
+  ng-class="{'no-image' : !section.imageurl}"
+  )
+  .mdl-card__media.entry
+    h3 {{section.title}}
+  .mdl-card__supporting-text(
+    class="child-0{{$index}}"
+    )
+    div.label(ng-if="section.partner") 
+      span.labeltag Partner: 
+      span{{section.partner}}
+    div.label(ng-if="section.role") 
+      span.labeltag Role: 
+      span{{section.role}}
+    div.label(ng-if="section.timeframe") 
+      span.labeltag Time-frame: 
+      span{{section.timeframe}}
+    div.label(ng-if="section.team") 
+      span.labeltag Team: 
+      span{{section.team}}
+    span(ng-repeat="listItem in section.content.description")
+      span(ng-if="section.title === 'overview'").labeltag Overview: 
+      p(
+        ng-class="{'overview' : section.title === 'overview'}"
+        ) {{listItem}}
+    ul.detail-item(ng-repeat="listDetail in section.content.detail track by $index")
+      li {{listDetail}}
+    p(ng-repeat="descItems2 in process.description2")
+      span {{descItems2}}
+.mdl-card.image.mdl-shadow--4dp(
+  class="image-0{{$index}} entry-img"
+  ng-if="section.imageurl"
+  )
+  div
+    img(
+      class="entry-images"
+      src="{{section.imageurl}}"
+      ng-style="{'max-height': entryImageMaxHeight[$index].height + 'px' }"
+      )
+    .mdl-card__actions.image-title(ng-if="section.imagemsg")
+      span {{section.imagemsg}}
