@@ -8,5 +8,5 @@ gulp.task('dev', function(cb) {
   global.isProd = false;
   global.isStaging = false;
 
-  runSequence('views', ['styles','data', 'browserify'], 'watch', cb);
+  runSequence('views', ['styles', 'images', 'data', 'browserify'], 'watch', cb);
 });

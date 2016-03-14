@@ -1,0 +1,471 @@
+app/data/about-me.json: Permission denied
+app/data/business-connect.json: Permission denied
+app/data/cengage-learning.json: Permission denied
+app/data/msmolly-foundation.json: Permission denied
+app/data/mytalk-tools.json: Permission denied
+app/data/remembering-riverhead.json: Permission denied
+app/views/partial/entryitems.jade: Permission denied
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex 71c7a23..0a75d40 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -1,7 +1,4 @@[m
+[31m-images[m
+[31m-app/bower_components[m
+[31m-*.mp4[m
+[31m-*.png[m
+[31m-*.jpg[m
+[31m-build[m
+ node_modules[m
+[32m+[m[32mdev/bower_components[m
+[32m+[m[32m.tmp[m
+[32m+[m[32mbuild[m
+[1mdiff --git a/.vscode/settings.json b/.vscode/settings.json[m
+[1mdeleted file mode 100644[m
+[1mindex 070aaf0..0000000[m
+[1m--- a/.vscode/settings.json[m
+[1m+++ /dev/null[m
+[36m@@ -1,4 +0,0 @@[m
+[31m-// Place your settings in this file to overwrite default and user settings.[m
+[31m-{[m
+[31m-   "editor.tabSize": 2 [m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/app/js/services/entrydatarepository.js b/app/js/services/entrydatarepository.js[m
+[1mdeleted file mode 100644[m
+[1mindex b8a0c2a..0000000[m
+[1m--- a/app/js/services/entrydatarepository.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,14 +0,0 @@[m
+[31m-[m
+[31m-function entryDataRepo ($state, $http){[m
+[31m-[m
+[31m-  $http.get('data/articles/business-connect.json').success( function(data) {[m
+[31m-    $scope.articles =  data;[m
+[31m-  });[m
+[31m-[m
+[31m-[m
+[31m-  return{[m
+[31m-    [m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-module.exports = ['$state', '$http', entryDataRepo];[m
+[1mdiff --git a/app/scss/deps/layout.scss b/app/scss/deps/layout.scss[m
+[1mdeleted file mode 100644[m
+[1mindex ccd6801..0000000[m
+[1m--- a/app/scss/deps/layout.scss[m
+[1m+++ /dev/null[m
+[36m@@ -1,73 +0,0 @@[m
+[31m-$mdl-blue: rgb(62, 78, 184);[m
+[31m-[m
+[31m-.centered{[m
+[31m-  margin-left:auto;[m
+[31m-  margin-right:auto;[m
+[31m-}[m
+[31m-[m
+[31m-.topbottom{[m
+[31m-  margin-top: calc(10vh);[m
+[31m-  margin-bottom: calc(10vh);[m
+[31m-}[m
+[31m-[m
+[31m-.mdl-card__title.contact{[m
+[31m-  .socialmedia{[m
+[31m-    margin-left: auto;[m
+[31m-    display: flex;[m
+[31m-    width: 50px;[m
+[31m-    font-size: 20px;[m
+[31m-    i{[m
+[31m-      flex:1;[m
+[31m-    }[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.drawer-header{[m
+[31m-    height: 40px;[m
+[31m-    line-height: 40px;[m
+[31m-    font-size: 20px;[m
+[31m-    background-color: $mdl-blue;[m
+[31m-    padding: 10px 15px;[m
+[31m-    color: white;[m
+[31m-    text-transform: capitalize;[m
+[31m-    i{[m
+[31m-      margin-right: 10px;[m
+[31m-      user-select: none; [m
+[31m-    }[m
+[31m-}[m
+[31m-[m
+[31m-.mdl-card.background-image{[m
+[31m-  background-size:cover;[m
+[31m-  height: 250px;[m
+[31m-  .mdl-card__title{[m
+[31m-    height: 200px;[m
+[31m-    h2{[m
+[31m-      position: absolute;[m
+[31m-      color:white;[m
+[31m-      font-weight: 600;[m
+[31m-      padding: 10px 15px;[m
+[31m-      top: 20px;[m
+[31m-      border-radius: 3px;[m
+[31m-      text-transform: capitalize;[m
+[31m-      background-color: rgba($mdl-blue, 1);[m
+[31m-    }[m
+[31m-  }[m
+[31m-[m
+[31m-  .mdl-card__actions{[m
+[31m-    padding: 8px 16px;[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-.mdl-button.button-color{[m
+[31m-  color:white;[m
+[31m-  font-weight:600;[m
+[31m-  background-color: $mdl-blue;[m
+[31m-}[m
+[31m-[m
+[31m-.mdl-navigation__link{[m
+[31m-  font-size: 16px;[m
+[31m-  i{[m
+[31m-    margin-right: 15px;[m
+[31m-  }[m
+[31m-}[m
+[1mdiff --git a/app/scss/deps/mdl-overwrite.scss b/app/scss/deps/mdl-overwrite.scss[m
+[1mdeleted file mode 100644[m
+[1mindex 8583b70..0000000[m
+[1m--- a/app/scss/deps/mdl-overwrite.scss[m
+[1m+++ /dev/null[m
+[36m@@ -1,27 +0,0 @@[m
+[31m-$mdl-blue: rgb(62, 78, 184);[m
+[31m-[m
+[31m-.mdl-card__actions.image-title{[m
+[31m-  background-color: rgba($mdl-blue, .75);[m
+[31m-  color: white;[m
+[31m-  /* opacity: .5; */[m
+[31m-  position: absolute;[m
+[31m-  padding: 20px;[m
+[31m-  z-index: 100;[m
+[31m-  bottom: 0;[m
+[31m-  width: 100%;[m
+[31m-  &.video-title{[m
+[31m-    background-color: rgba($mdl-blue, 1);[m
+[31m-    position: static;[m
+[31m-    padding: 25px 20px;[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-.mdl-layout.is-upgraded .mdl-layout__tab.is-active::after{[m
+[31m-    height: 5px;[m
+[31m-    background-color: $mdl-blue;[m
+[31m-}[m
+[1mdiff --git a/app/scss/deps/portfolio.scss b/app/scss/deps/portfolio.scss[m
+[1mdeleted file mode 100644[m
+[1mindex 25bf11a..0000000[m
+[1m--- a/app/scss/deps/portfolio.scss[m
+[1m+++ /dev/null[m
+[36m@@ -1,203 +0,0 @@[m
+[31m-$mdl-blue: rgb(62, 78, 184);[m
+[31m-[m
+[31m-@media only screen and (min-width: 1030px){[m
+[31m-  .structure{[m
+[31m-      .mdl-card{[m
+[31m-        margin: 0 8px;[m
+[31m-        ul{[m
+[31m-          li{[m
+[31m-            font-size:18px;[m
+[31m-          }[m
+[31m-        }[m
+[31m-        &.image{[m
+[31m-          &.image-01{[m
+[31m-            margin:8px;[m
+[31m-          }[m
+[31m-        }[m
+[31m-        .mdl-card__supporting-text{[m
+[31m-          padding: 20px 35px;[m
+[31m-          &.child-01{[m
+[31m-            font-size: 1.3em;[m
+[31m-            line-height: 1.4em;[m
+[31m-          }[m
+[31m-      }[m
+[31m-    }[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-@media only screen and (max-width: 767px){[m
+[31m-  .structure.about-me{[m
+[31m-    .mdl-card{[m
+[31m-      .mdl-card__supporting-text{[m
+[31m-        font-size: 16px;[m
+[31m-        text-align: center;[m
+[31m-        .left-wrapper{[m
+[31m-          max-width: 100%;[m
+[31m-          .avatar{[m
+[31m-            margin-left: auto;[m
+[31m-            margin-right: auto;[m
+[31m-          }[m
+[31m-        }[m
+[31m-        .right-wrapper{[m
+[31m-        }[m
+[31m-      }[m
+[31m-    }[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-@media only screen and (min-width: 768px){[m
+[31m-  .structure.about-me{[m
+[31m-    .mdl-card{[m
+[31m-      .mdl-card__supporting-text{[m
+[31m-        flex-direction: row;[m
+[31m-        font-size: 18px;[m
+[31m-        .right-wrapper{[m
+[31m-            text-align: center;[m
+[31m-            &.highlight{[m
+[31m-              margin-top: 35px;[m
+[31m-            }[m
+[31m-        }[m
+[31m-      }[m
+[31m-    }[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-@media only screen and (max-width: 1029px){[m
+[31m-  .structure{[m
+[31m-    .mdl-card{[m
+[31m-      background-color:white;[m
+[31m-      margin:8px 8px;[m
+[31m-      width: 100% !important;[m
+[31m-      &.image{[m
+[31m-        width: 100%;[m
+[31m-      }[m
+[31m-      .mdl-card__supporting-text{[m
+[31m-        p.overview{[m
+[31m-          font-size:14px;[m
+[31m-        }[m
+[31m-        p{[m
+[31m-          font-size: 1em;[m
+[31m-          line-height: 1.8em;[m
+[31m-        }[m
+[31m-        ul{[m
+[31m-          li{[m
+[31m-            font-size:12px;[m
+[31m-          }[m
+[31m-        }[m
+[31m-        &.child-01{[m
+[31m-          font-size: .85em;[m
+[31m-          line-height: 1.8em;[m
+[31m-        }[m
+[31m-      }[m
+[31m-    }[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-[m
+[31m-.structure.about-me{[m
+[31m-  .mdl-card{[m
+[31m-    .mdl-card__supporting-text{[m
+[31m-      &.video-width{[m
+[31m-        width:100%;[m
+[31m-        padding:0;[m
+[31m-        .right-wrapper{[m
+[31m-          padding:0;[m
+[31m-        }[m
+[31m-      }[m
+[31m-      .videocontent{[m
+[31m-        video{[m
+[31m-          width:100%;[m
+[31m-        }[m
+[31m-      }[m
+[31m-    }[m
+[31m-    .mdl-card__supporting-text .right-wrapper.highlight {[m
+[31m-      span{[m
+[31m-        display: inline-block;[m
+[31m-        margin: 0 5px;[m
+[31m-        p {[m
+[31m-          margin-bottom: 0;[m
+[31m-        }[m
+[31m-[m
+[31m-      }[m
+[31m-      span:nth-child(2){[m
+[31m-        p{[m
+[31m-          font-weight: bold;[m
+[31m-          &:before{[m
+[31m-            content: '"'[m
+[31m-          }[m
+[31m-          &:after{[m
+[31m-            content: '"'[m
+[31m-          }[m
+[31m-        }[m
+[31m-      }[m
+[31m-    }[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-.structure{[m
+[31m-  .mdl-card{[m
+[31m-    @extend .mdl-cell--7-col;[m
+[31m-    &.video{[m
+[31m-      background: none;[m
+[31m-      box-shadow: none;[m
+[31m-    }[m
+[31m-    .labeltag{[m
+[31m-      font-weight: bold;[m
+[31m-    }[m
+[31m-[m
+[31m-    p.overview{[m
+[31m-      display:inline;[m
+[31m-    }[m
+[31m-    p{[m
+[31m-      font-size:18px;[m
+[31m-    }[m
+[31m-    &.card-01{[m
+[31m-      // margin: 8px;[m
+[31m-      @extend .mdl-cell--6-col;[m
+[31m-    }[m
+[31m-    &.no-image{[m
+[31m-      @extend .mdl-cell--12-col;[m
+[31m-    }[m
+[31m-    .mdl-card__media.entry{[m
+[31m-      padding: 0px 35px;[m
+[31m-      text-transform: capitalize;[m
+[31m-      color:white;[m
+[31m-      background-color: $mdl-blue;[m
+[31m-    }[m
+[31m-[m
+[31m-    ul{[m
+[31m-      margin: 10px 14px;[m
+[31m-    }[m
+[31m-    &.image{[m
+[31m-      @extend .mdl-cell--5-col;[m
+[31m-      img{[m
+[31m-        width: 100%;[m
+[31m-        height: auto;[m
+[31m-      }[m
+[31m-      // @extend .mdl-cell--top;[m
+[31m-      // min-height:350px !important;[m
+[31m-[m
+[31m-      &.image-01{[m
+[31m-        @extend .mdl-cell--6-col;[m
+[31m-        // min-height: 400px;[m
+[31m-      }[m
+[31m-    }[m
+[31m-  }[m
+[31m-  .mdl-card__supporting-text{[m
+[31m-    flex-direction: column;[m
+[31m-    display:flex;[m
+[31m-    .left-wrapper{[m
+[31m-      flex: 1;[m
+[31m-      max-width:175px;[m
+[31m-      .avatar{[m
+[31m-        height: 150px;[m
+[31m-        width: 150px;[m
+[31m-        border-radius: 200px;[m
+[31m-      }[m
+[31m-    }[m
+[31m-    .right-wrapper{[m
+[31m-      flex: 1;[m
+[31m-      padding: 20px 25px;[m
+[31m-    }[m
+[31m-  }[m
+[31m-}[m
+[1mdiff --git a/app/views/pages/aboutme.jade b/app/views/pages/aboutme.jade[m
+[1mdeleted file mode 100644[m
+[1mindex dcdc198..0000000[m
+[1m--- a/app/views/pages/aboutme.jade[m
+[1m+++ /dev/null[m
+[36m@@ -1,39 +0,0 @@[m
+[31m-.structure.mdl-grid.about-me.animate(ng-repeat="section in routeData" ng-class="{'display-none': section.banner}")[m
+[31m-  .mdl-card.mdl-shadow--4dp([m
+[31m-    class= 'no-image'[m
+[31m-    ng-class="{'video': section.videourl}"[m
+[31m-    )[m
+[31m-    .mdl-card__media.entry(ng-class="{'display-none': section.title === 'intro' || section.title === 'video'}")[m
+[31m-      h3 {{section.title}}[m
+[31m-    .mdl-card__supporting-text([m
+[31m-      ng-class="{'video-width': section.videourl}"[m
+[31m-      )[m
+[31m-      .left-wrapper([m
+[31m-        ng-class="{'display-none': !section.imageurl}"[m
+[31m-        )[m
+[31m-        div.avatar(style="background: url({{section.imageurl}}); background-size: contain; background-repeat: no-repeat;")[m
+[31m-      .right-wrapper([m
+[31m-         ng-class="{'highlight': section.title === 'intro'}"[m
+[31m-        )[m
+[31m-        div.videocontent(ng-if="section.videourl") [m
+[31m-          video(src="{{section.videourl}}" controls) [m
+[31m-        div.label(ng-if="section.partner") [m
+[31m-          span.labeltag Partner: [m
+[31m-          span{{section.partner}}[m
+[31m-        div.label(ng-if="section.role") [m
+[31m-          span.labeltag Role: [m
+[31m-          span{{section.role}}[m
+[31m-        div.label(ng-if="section.team") [m
+[31m-          span.labeltag Team: [m
+[31m-          span{{section.team}}[m
+[31m-        span(ng-repeat="listItem in section.content.description")[m
+[31m-          span(ng-if="section.title === 'overview'").labeltag Overview: [m
+[31m-          p([m
+[31m-            ng-class="{'overview' : section.title === 'overview'}"[m
+[31m-            ) {{listItem}}[m
+[31m-        ul.detail-item(ng-repeat="listDetail in section.content.detail track by $index")[m
+[31m-          li {{listDetail}}[m
+[31m-        p(ng-repeat="descItems2 in process.description2")[m
+[31m-          span {{descItems2}}[m
+[31m-    .mdl-card__actions.image-title.video-title(ng-if="section.imagemsg")[m
+[31m-      span {{section.imagemsg}}[m
+[1mdiff --git a/app/views/pages/contact.jade b/app/views/pages/contact.jade[m
+[1mdeleted file mode 100644[m
+[1mindex 62cbf08..0000000[m
+[1m--- a/app/views/pages/contact.jade[m
+[1m+++ /dev/null[m
+[36m@@ -1,24 +0,0 @@[m
+[31m-.mdl-grid.animate[m
+[31m-  .mdl-card.mdl-shadow--6dp.mdl-cell--6-col.centered.topbottom[m
+[31m-    .mdl-card__title.mdl-color--primary.mdl-color-text--white.contact[m
+[31m-      h2.mdl-card__title-text Contact[m
+[31m-      .socialmedia[m
+[31m-        i.ion-social-twitter(onclick=" window.location.href = 'https://twitter.com/britthut06'")[m
+[31m-        i.ion-social-linkedin(onclick="window.location.href = 'https://www.linkedin.com/in/brittany-hutson-1bba838'")[m
+[31m-    .mdl-card__supporting-text[m
+[31m-      form(action='//formspree.io/bhutson1@gmail.com', method='POST')[m
+[31m-        //- input(type='hidden', name='_next', value='//site.io/thanks.html')[m
+[31m-        .mdl-textfield.mdl-js-textfield[m
+[31m-          input#username.mdl-textfield__input(type='text', name='name')[m
+[31m-          label.mdl-textfield__label(for='username') First and Last Name[m
+[31m-        .mdl-textfield.mdl-js-textfield[m
+[31m-          input#email.mdl-textfield__input(type='email', name='_replyto')[m
+[31m-          label.mdl-textfield__label(for='email') Email[m
+[31m-        .mdl-textfield.mdl-js-textfield[m
+[31m-          input#phone.mdl-textfield__input(type='text', name='phone')[m
+[31m-          label.mdl-textfield__label(for='phone') Phone Number[m
+[31m-        .mdl-textfield.mdl-js-textfield[m
+[31m-          input#socialmedia.mdl-textfield__input(type='text', name='socialmedia')[m
+[31m-          label.mdl-textfield__label(for='socialmedia') Twitter, Instagram, or Facebook tag[m
+[31m-        .mdl-card__actions.mdl-card--border[m
+[31m-          button.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect Submit[m
+[1mdiff --git a/gulp/tasks/images.js b/gulp/tasks/images.js[m
+[1mdeleted file mode 100644[m
+[1mindex fe1fb11..0000000[m
+[1m--- a/gulp/tasks/images.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,16 +0,0 @@[m
+[31m-'use strict';[m
+[31m-[m
+[31m-import config       from '../config';[m
+[31m-import gulp         from 'gulp';[m
+[31m-import changed      from 'gulp-changed';[m
+[31m-import gulpif       from 'gulp-if';[m
+[31m-import imagemin     from 'gulp-imagemin';[m
+[31m-import browserSync  from 'browser-sync';[m
+[31m-[m
+[31m-[m
+[31m-gulp.task('images', function(){[m
+[31m-  return gulp.src(config.images.src)[m
+[31m-    .pipe(changed(config.images.dest)) //ignores unchanged files[m
+[31m-    .pipe(gulp.dest(config.images.dest))[m
+[31m-    .pipe(browserSync.stream({ once: true}));[m
+[31m-});[m

@@ -1,6 +1,16 @@
-.mdl-layout__header-row.mdl-layout--large-screen-only
+.mdl-layout__header-row
+  .backbutton( ui-sref='main.homepage' ng-show="toggleBack")
+    i.ion-android-arrow-back
 .mdl-layout__header-row.mdl-layout--large-screen-only
 .mdl-layout__header-row
-  h3(ui-sref="main.entries") {{site.author}}
+  h3 {{site.author}}
+    span {{site.tagline}}
+.mdl-layout__drawer-button.mdl-layout--small-screen-only(ng-hide="toggleBack")
+   i.material-icons menu
+.mdl-layout__header-row
 .mdl-layout__header-row.mdl-layout--large-screen-only
-.mdl-layout__header-row.mdl-layout--large-screen-only
+  .mdl-layout-spacer
+  nav.mdl-navigation
+    a.mdl-navigation__link.mdl-layout__tab(ui-sref='main.about' ng-class='{"is-active":  "main.about" === currentPage}') About Me
+    a.mdl-navigation__link.mdl-layout__tab(ui-sref='main.homepage' ng-class='{"is-active": "main.homepage" ===  currentPage || "main.entries" === currentPage}') Portfolio
+    a.mdl-navigation__link.mdl-layout__tab(ui-sref='main.contact' ng-class='{"is-active":  "main.contact" ===  currentPage}') Contact

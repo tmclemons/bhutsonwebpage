@@ -9,7 +9,7 @@ export default {
   buildDir: './build/',
 
   styles: {
-    src: 'app/scss/*.scss',
+    src: 'app/scss/**/*.scss',
     dest: 'build/css',
     prodSourceMap: false,
     sassIncludePaths: []
@@ -17,7 +17,7 @@ export default {
 
   data: {
     src: 'app/data/',
-    files: 'app/data/*.json',
+    files: 'app/data/**/*.json',
     dest: 'build/data',
   },
 
@@ -30,6 +30,11 @@ export default {
     index: 'app/views/index.*',
     src: 'app/views/**/*.jade',
     dest:'app/js'
+  },
+
+  images: {
+    src: 'app/images/**/*',
+    dest:'build/images'
   },
 
   browserify: {

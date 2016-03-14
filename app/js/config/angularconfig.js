@@ -1,11 +1,11 @@
 let main = require('../controllers/main');
 let nav = require('../controllers/nav');
-let drawer = require('../controllers/drawer');
 
 
 
-function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
 
+function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, localStorageServiceProvider, $httpProvider) {
+  localStorageServiceProvider.setPrefix('bhutson');
   $urlRouterProvider.otherwise('/page-not-found');
 
   $locationProvider.html5Mode({
@@ -34,13 +34,17 @@ function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, $h
           controller: nav.controller
         },
         'drawer@main.homepage': {
-          tempalteUrl: 'components/drawer.html',
-          controller: drawer.controller
+          templateUrl: 'components/drawer.html',
+          controller: nav.controller
         }
       }
     })
     .state('main.entries', {
-      url: '/entry',
+      url: '/entry?page',
+      params: {
+        page: null,
+        path: null
+      },
       views: {
         '@': {
           templateUrl: 'pages/main.html'
@@ -54,11 +58,54 @@ function angularConfig($stateProvider, $urlRouterProvider, $locationProvider, $h
           controller: nav.controller
         },
         'drawer@main.entries': {
-          tempalteUrl: 'components/drawer.html',
-          controller: drawer.controller
+          templateUrl: 'components/drawer.html',
+          controller: nav.controller
         }
       }
-    });
+    })
+    .state('main.about', {
+      url: '/info?page',
+      params: {
+        page: 'about-me'
+      },
+      views: {
+        '@': {
+          templateUrl: 'pages/main.html'
+        },
+        'content@main.about': {
+          templateUrl: 'pages/aboutme.html',
+          controller: main.controller
+        },
+        'header@main.about':{
+          templateUrl: 'components/header.html',
+          controller: nav.controller
+        },
+        'drawer@main.about': {
+          templateUrl: 'components/drawer.html',
+          controller: nav.controller
+        }
+      }
+    })
+    .state('main.contact', {
+      url: '/contact',
+      views: {
+        '@': {
+          templateUrl: 'pages/main.html'
+        },
+        'content@main.contact': {
+          templateUrl: 'pages/contact.html',
+          controller: main.controller
+        },
+        'header@main.contact':{
+          templateUrl: 'components/header.html',
+          controller: nav.controller
+        },
+        'drawer@main.contact': {
+          templateUrl: 'components/drawer.html',
+          controller: nav.controller
+        }
+      }
+    })
 }
 
-module.exports = ['$stateProvider', '$urlRouterProvider', '$locationProvider', '$httpProvider', angularConfig];
+module.exports = ['$stateProvider', '$urlRouterProvider', '$locationProvider', 'localStorageServiceProvider', '$httpProvider', angularConfig];

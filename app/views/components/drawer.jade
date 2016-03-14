@@ -1,7 +1,15 @@
-div
-  span.mdl-layout-title Title
-  nav.mdl-navigation
-    a.mdl-navigation__link(href='') Link
-    a.mdl-navigation__link(href='') Link
-    a.mdl-navigation__link(href='') Link
-    a.mdl-navigation__link(href='') Link
+.drawer-header
+  i.ion-android-arrow-back(ng-click="drawerToggle()")
+  span Menu
+nav.mdl-navigation
+  a.mdl-navigation__link(ui-sref='main.about') 
+    i.ion-person
+    span About Me
+  a.mdl-navigation__link(ui-sref='main.homepage') 
+    i.ion-ios-briefcase
+    span Portfolio
+  a.mdl-navigation__link(ui-sref='main.contact') 
+    i.ion-ios-telephone
+    span Contact
+    
+  
