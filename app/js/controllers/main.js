@@ -11,31 +11,38 @@ var main = {
           "articleName": "business connect",
           "articleFn": "businessConnect",
           "articleImg": "../../../images/BC-exposition-poster.jpg",
-          "articlePath": "data/business-connect.json"
+          "articlePath": "data/business-connect.json",
+          "tags": ['UX Design', 'UX Research']
         },
         {
           "articleName": "cengage learning",
           "articleFn": "cengageLearning",
           "articleImg": "../../../images/CG-debrief.jpg",
-          "articlePath": "data/cengage-learning.json"
+          "articlePath": "data/cengage-learning.json",
+          "tags": ['Contextual Inquiry','UX Research']
         },
         {
           "articleName": "my talk tools",
           "articleFn": "myTalkTools",
           "articleImg": "../../../images/MTT-usability.png",
-          "articlePath": "data/mytalk-tools.json"
+          "articlePath": "data/mytalk-tools.json",
+          "tags": ['UX Research']
+
         },
         {
           "articleName": "ms. molly foundation",
           "articleFn": "msMollyFoundation",
           "articleImg": "../../../images/MMS-affinity-wall.jpg",
-          "articlePath": "data/msmolly-foundation.json"
+          "articlePath": "data/msmolly-foundation.json",
+          "tags": ['Contextual Inquiry','UX Research']
+
         },
         {
           "articleName": "remembering riverhead",
           "articleFn": "rememberingRiverhead",
           "articleImg": "../../../images/RR-sketches.jpg",
-          "articlePath": "data/remembering-riverhead.json"
+          "articlePath": "data/remembering-riverhead.json",
+          "tags": ['Interaction Design', 'UX Design']
         },
         {
           "articleName": "about me",
