@@ -53,7 +53,9 @@ $mdl-blue: rgb(62, 78, 184);
         font-size: 18px;
         .right-wrapper{
             text-align: center;
-            margin-top: 55px;
+            &.highlight{
+              margin-top: 35px;
+            }
         }
       }
     }
@@ -135,6 +137,10 @@ $mdl-blue: rgb(62, 78, 184);
 .structure{
   .mdl-card{
     @extend .mdl-cell--7-col;
+    &.video{
+      background: none;
+      box-shadow: none;
+    }
     .labeltag{
       font-weight: bold;
     }

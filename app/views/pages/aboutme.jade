@@ -1,6 +1,7 @@
 .structure.mdl-grid.about-me.animate(ng-repeat="section in routeData" ng-class="{'display-none': section.banner}")
   .mdl-card.mdl-shadow--4dp(
     class= 'no-image'
+    ng-class="{'video': section.videourl}"
     )
     .mdl-card__media.entry(ng-class="{'display-none': section.title === 'intro' || section.title === 'video'}")
       h3 {{section.title}}
