@@ -8,5 +8,6 @@
     .mdl-card__actions.mdl-card--border
       a.mdl-button.button-color.mdl-js-button.mdl-js-ripple-effect(ui-sref="main.entries({page: item.articleFn, path: item.articlePath})"  ui-sref-opts="{reload: true, inherit: false, notify: true}")
         | Read More
+        i.ion-ios-more
       .tags(ng-repeat="tag in item.tags")
         span {{tag}}

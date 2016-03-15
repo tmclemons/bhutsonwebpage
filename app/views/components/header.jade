@@ -2,7 +2,7 @@
   .backbutton( ui-sref='main.homepage' ng-show="toggleBack")
     i.ion-android-arrow-back
 .mdl-layout__header-row.mdl-layout--large-screen-only
-.mdl-layout__header-row
+.mdl-layout__header-row(ui-sref='main.homepage') 
   h3 {{site.author}}
     span {{site.tagline}}
 .mdl-layout__drawer-button.mdl-layout--small-screen-only(ng-hide="toggleBack")

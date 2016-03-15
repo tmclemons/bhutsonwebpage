@@ -1,4 +1,4 @@
-$mdl-blue: rgb(62, 78, 184);
+$mdl-blue: rgb(75, 128, 159);
 
 .centered{
   margin-left:auto;
@@ -11,6 +11,7 @@ $mdl-blue: rgb(62, 78, 184);
 }
 
 .mdl-card__title.contact{
+  background-color: $mdl-blue;
   .socialmedia{
     margin-left: auto;
     display: flex;
@@ -20,6 +21,11 @@ $mdl-blue: rgb(62, 78, 184);
       flex:1;
     }
   }
+}
+
+.mdl-button.contact{
+  background-color: $mdl-blue;
+  color: white;
 }
 
 
@@ -44,38 +50,44 @@ $mdl-blue: rgb(62, 78, 184);
     height: 200px;
     h2{
       position: absolute;
-      color:white;
-      font-weight: 600;
+      color: white;
+      font-weight: 300;
       padding: 10px 15px;
       top: 20px;
-      border-radius: 3px;
       text-transform: capitalize;
-      background-color: rgba($mdl-blue, 1);
+      background-color: #286B90;
+      font-size: 15px;
     }
   }
 
   .mdl-card__actions{
     padding: 8px 16px;
+    background-color:#286B90;
     .tags{
       float:right;
       display:flex;
       span{
         flex:1;
-        background-color:#6A75BF;
+        background-color:#034E6F;
         padding: 3px 6px;
         font-size: 14px;
         border-radius: 2px;
         color:white;
         margin: 5px 5px;
+        font-weight: 300;
       }
     }
   }
 }
 
 .mdl-button.button-color{
-  color:white;
-  font-weight:600;
-  background-color: $mdl-blue;
+  color: white;
+  font-weight: 300;
+  background-color: rgba($mdl-blue, 0);
+  i {
+    margin-left: 15px;
+    font-size:14px;
+  }
 }
 
 .mdl-navigation__link{

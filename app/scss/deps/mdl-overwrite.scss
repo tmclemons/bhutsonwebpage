@@ -1,4 +1,4 @@
-$mdl-blue: rgb(62, 78, 184);
+$mdl-blue: rgb(75, 128, 159);
 
 .mdl-card__actions.image-title{
   background-color: rgba($mdl-blue, .75);
@@ -23,5 +23,5 @@ $mdl-blue: rgb(62, 78, 184);
 
 .mdl-layout.is-upgraded .mdl-layout__tab.is-active::after{
     height: 5px;
-    background-color: $mdl-blue;
+    background-color: white;
 }
